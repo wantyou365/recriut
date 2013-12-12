@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rootlay_companyemailactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/sharing_download_title_bg"
+		android:padding="@dimen/textblankpadding_large"
+		android:text="欢迎回来,wantyou365"
+		android:textColor="@color/orangecolor"
+		android:textSize="@dimen/zhiweixiangqing_zhiweimiaoshuinfo" />
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			 >
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/textblankpadding_large"
+				android:layout_marginLeft="30dip"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:padding="@dimen/textblankpadding_large"
+				android:text="您目前没有收到企业的回复信息."
+				android:textSize="@dimen/noemail" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="30dip"
+				android:paddingRight="30dip"
+				android:text="根据最佳东方统计，每天申请10个以上的职位，将使您获得更多的面试几回，继续加油！"
+				android:textSize="@dimen/zhiweixiangqing_zhiweimiaoshuinfo" />
+
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="30dip"
+				android:background="@drawable/company_messages_blank_application_btn" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/company_messages_blank_tips" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

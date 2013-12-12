@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root_dialogactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	android:padding="@dimen/textblankpadding_large"
+	 >
+
+   
+
+    <ProgressBar
+    	android:id="@+id/progressBar1"
+    	style="?android:attr/progressBarStyleLarge"
+    	android:layout_width="0dip"
+    	android:layout_height="match_parent" 
+    	android:layout_weight="1"
+    	/>
+	<TextView 
+		android:layout_width="0dip"
+    	android:layout_height="match_parent" 
+    	android:layout_weight="2"
+		android:text="请稍候，正在为您查找..."
+		android:textSize="@dimen/nosubscribetitle"
+		android:gravity="center_vertical"
+		/>
+</LinearLayout>

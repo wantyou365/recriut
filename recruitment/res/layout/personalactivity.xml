@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlayout_personalactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+
+    <LinearLayout
+        android:id="@+id/unlogview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/textblankpadding"
+        android:layout_marginRight="@dimen/textblankpadding"
+        android:layout_marginTop="@dimen/textblankpadding_20"
+        android:background="@drawable/searchkeysback"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:padding="@dimen/textblankpadding"
+                android:text="用户名"
+                android:textSize="@dimen/noemail" />
+
+            <EditText
+                android:id="@+id/usernameedit"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="@null"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="@dimen/textblankpadding_20"
+            android:layout_marginRight="@dimen/textblankpadding_20"
+            android:background="@drawable/linearlayoutshape" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:padding="@dimen/textblankpadding"
+                android:text="密   码"
+                android:textSize="@dimen/noemail" />
+
+            <EditText
+                android:id="@+id/passwordedit"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="@null"
+                android:maxLines="1"
+                android:password="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="@dimen/textblankpadding_20"
+            android:layout_marginRight="@dimen/textblankpadding_20"
+            android:background="@drawable/linearlayoutshape" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dip" >
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="自动登录" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textblankpadding_20"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/textblankpadding_20"
+            android:paddingRight="@dimen/textblankpadding_20" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/loginbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="@dimen/textblankpadding"
+                    android:background="@drawable/login_login_btn"
+                    android:onClick="login" />
+
+                <Button
+                    android:id="@+id/registerbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="@dimen/textblankpadding_20"
+                    android:background="@drawable/login_register_btn"
+                    android:onClick="register" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/loggedview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textblankpadding_large"
+        android:scrollbars="none"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/welcometitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/textblankpadding_large"
+                android:textColor="@color/orangecolor"
+                android:textSize="@dimen/titletext" />
+
+            <LinearLayout
+                android:id="@+id/layone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/textblankpadding_large"
+                android:background="@drawable/searchkeysback"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/textblankpadding_large"
+                android:text="@string/zhiweixiangguan"
+                android:textSize="@dimen/zhiweixiangqing_jobname" />
+
+            <LinearLayout
+                android:id="@+id/laytwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/searchkeysback"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/textblankpadding_large"
+                android:text="@string/jianlixiangguan"
+                android:textSize="@dimen/zhiweixiangqing_jobname" />
+
+            <LinearLayout
+                android:id="@+id/laythree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/searchkeysback"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/textblankpadding_large"
+                android:text="@string/waifajianlixiangguan"
+                android:textSize="@dimen/zhiweixiangqing_jobname" />
+
+            <LinearLayout
+                android:id="@+id/layfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/textblankpadding_large"
+                android:background="@drawable/searchkeysback"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/textblankpadding_large"
+                android:background="@drawable/searchkeysback"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

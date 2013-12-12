@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_sendjobsinfoactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/zhaopinduixiang_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/zhaopinduixiang"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/zhiweimingchen_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/jobname"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/gongzuoleibie_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/gongzuoleibie"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/zhaopinleibie_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/zhaopinleibie"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/baochizhu_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/baochizhu"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/gongzuoshijian_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/gongzuoshijian"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/jiezhiriqi_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/jiezhiriqi"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/gongzuodidian_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/jobarea"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/gongzuojingyan_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/workingyears"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/xinzidaiyu_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/jobdeal"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center_horizontal"
+					android:padding="@dimen/textblankpadding_3"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/zhaopinrenshu_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/countofperson"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:padding="@dimen/textblankpadding_3" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_large"
+				android:orientation="horizontal"
+				android:padding="@dimen/textblankpadding_large"
+				android:visibility="gone" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/zhaopingyaoqiu_fabu"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/jobrequire"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:padding="@dimen/textblankpadding_3" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/miaoshu"
+				android:layout_width="match_parent"
+				android:layout_height="0dip"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:padding="@dimen/textblankpadding_large" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/zhiweimiaoshu"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/zhiweimianshu"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="@drawable/orangeeditselector"
+					android:minHeight="300dip"
+					android:padding="@dimen/textblankpadding_3"
+					android:gravity="top|left"
+					 />
+			</LinearLayout>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/textblankpadding_20"
+				android:onClick="buttonOnclick"
+				android:text="发布" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,596 @@
+com.gazecloud.dyteam.R
+com.gazecloud.dyteam.R$attr
+com.gazecloud.dyteam.R$color
+com.gazecloud.dyteam.R$dimen
+com.gazecloud.dyteam.R$drawable
+com.gazecloud.dyteam.R$id
+com.gazecloud.dyteam.R$layout
+com.gazecloud.dyteam.R$string
+com.gazecloud.dyteam.R$style
+com.janan.adapter.ApplyRecordsAdapter:
+====    44:44:public java.util.ArrayList getmList()
+====    50:50:public com.janan.recruit.BaseActivity getmActivity()
+====    53:54:public void setmActivity(com.janan.recruit.BaseActivity)
+com.janan.adapter.CityAdapter:
+====    54:54:public java.util.ArrayList getCities()
+====    57:57:public java.util.ArrayList getmList()
+com.janan.adapter.DistrictAdapter:
+====    50:50:public java.util.ArrayList getCities()
+====    53:53:public java.util.ArrayList getmList()
+com.janan.adapter.JobDeptAdapter:
+====    52:52:public java.util.ArrayList getmList()
+com.janan.adapter.JobFairsTitleAdapter:
+====    46:47:public void setmList(java.util.ArrayList)
+====    49:49:public com.janan.recruit.BaseActivity getmActivity()
+====    52:53:public void setmActivity(com.janan.recruit.BaseActivity)
+com.janan.adapter.JobNameAdapter:
+====    50:50:public java.util.ArrayList getmList()
+com.janan.adapter.JobsAdapter:
+====    45:45:public java.util.ArrayList getmList()
+====    51:51:public com.janan.recruit.BaseActivity getmActivity()
+====    54:55:public void setmActivity(com.janan.recruit.BaseActivity)
+com.janan.adapter.NewsTitleAdapter:
+====    45:46:public void setmList(java.util.ArrayList)
+====    48:48:public com.janan.recruit.BaseActivity getmActivity()
+====    51:52:public void setmActivity(com.janan.recruit.BaseActivity)
+com.janan.adapter.OutResumeRecordAdapter:
+====    69:69:public java.util.ArrayList getmList()
+com.janan.adapter.ProvinceAdapter:
+====    57:57:public java.util.ArrayList getProvinces()
+====    61:61:public java.util.ArrayList getmList()
+com.janan.adapter.RecieveResumesAdapter:
+====    58:59:public void setmList(java.util.ArrayList)
+com.janan.adapter.ResumeListAdapter:
+====    57:58:public void setmList(java.util.ArrayList)
+com.janan.adapter.SearchCheckInfoAdapter:
+    private int tag
+====    29:29:public java.util.ArrayList getmList()
+com.janan.adapter.SearchResultAdapter
+com.janan.adapter.SeeMyResumeAdapter:
+====    60:61:public void setmList(java.util.ArrayList)
+com.janan.adapter.SendResumeOutRecordsAdapter
+com.janan.adapter.ShixiAdapter:
+====    46:47:public void setmList(java.util.ArrayList)
+====    49:49:public com.janan.recruit.BaseActivity getmActivity()
+====    52:53:public void setmActivity(com.janan.recruit.BaseActivity)
+com.janan.data.bean.BaseBean:
+    public static final int TAG_CONDITION_YIXIANGZHIWEI
+    public static final int TAG_CONDITION_YIXIANGDIDIAN
+    public static final int TAG_CONDITION_FABURIQI
+    public static final int TAG_CONDITION_GUANJIANCI
+    public static final int TAG_CONDITION_GONGZUONIANXIAN
+    public static final int TAG_CONDITION_XINGBIEYAOQIU
+    public static final int TAG_CONDITION_NIANLING
+    public static final int TAG_CONDITION_DAOGANGSHIJIAN
+    public static final int TAG_CONDITION_XUELIYAOQIU
+    public static final int TAG_CONDITION_HANGYE
+    public static final int TAG_CONDITION_XINGJI
+    public static final int TAG_CONDITION_QIWANGYUEXIN
+    public static final int TAG_CONDITION_JIUDIANLEIXING
+    public static final int TAG_CONDITION_ZHAOPINDUIXIANG
+    public static final int TAG_CONDITION_ZHAOPINLEIBIE
+    public static final int TAG_CONDITION_BAOCHIZHU
+    public static final int TAG_CONDITION_GONGZUOSHIJIAN
+    public static final int TAG_LIULANQIYE
+    public static final int TAG_QIYELAIXIN
+    public static final int TAG_QIUZHIJILU
+    public static final int TAG_ZHIWEISHOUCANG
+    public static final int TAG_XIUGAIWEIJIANLI
+    public static final int TAG_YULANJIANLI
+    public static final int TAG_SHUAXINJIANLI
+    public static final int TAG_WAIFAJIANLI
+    public static final int TAG_WAIFAJIANLIJILU
+    public static final int TAG_XIUGAIMIMA
+    public static final int TAG_SHOUCANGGUANLI
+    public static final int TAG_HUKOUSUOZAIDI
+    public static final int TAG_JUZHUDI
+    public static final int TAG_JOBCLASS
+    public static final int TAG_JOBNAME
+    public static final int TAG_SALARY
+    public static final java.lang.String SplitString
+    public static final java.lang.String Tag_Obj
+====    141:141:public java.lang.String getStringTag(int)
+com.janan.data.bean.BeanStatus
+com.janan.data.bean.JobFairs:
+====    28:28:public java.lang.String getmId()
+====    58:58:public java.lang.String getmCity()
+com.janan.data.bean.JobInfo:
+    private java.lang.String mGongzuodidian
+    private java.lang.String mSuozaidiString
+    private java.lang.String mSendClickString
+    public java.lang.String mAge
+    private java.lang.String mZipCode
+    private java.lang.String mLianxifangshi
+    private java.util.ArrayList singleList
+====    32:32:public java.lang.String getmEndYear()
+====    40:40:public java.lang.String getmEndMonth()
+====    48:48:public java.lang.String getmEndDay()
+====    64:64:public java.lang.String getmLianxifangshi()
+====    106:106:public java.lang.String getmZhiweimiaoshuKey(com.janan.recruit.BaseActivity)
+====    131:131:public java.lang.String getmSendClickStringKey(com.janan.recruit.BaseActivity)
+====    183:184:public void setmSuozaidiString(java.lang.String)
+====    331:332:public void setmGongzuodidian(java.lang.String)
+====    416:416:public java.lang.String getmSendClickString()
+====    421:422:public void setmSendClickString(java.lang.String)
+====    440:441:public void setmAge(java.lang.String)
+====    445:445:public java.lang.String getmMin_Age()
+====    455:455:public java.lang.String getmMax_Age()
+====    515:515:public java.lang.String getmZipCode()
+====    520:521:public void setmZipCode(java.lang.String)
+====    525:525:public java.util.ArrayList getSingleList()
+====    530:531:public void setSingleList(java.util.ArrayList)
+====    535:535:public java.util.ArrayList getDoubleList()
+====    540:541:public void setDoubleList(java.util.ArrayList)
+====    545:545:public boolean isLong()
+====    550:551:public void setLong(boolean)
+====    555:555:public boolean isSubscribe()
+====    560:561:public void setSubscribe(boolean)
+====    565:566:public void setmLianxifangshi(java.lang.String)
+com.janan.data.bean.News:
+    private java.lang.String mPostTime
+    private java.lang.String mAuthor
+====    36:36:public java.lang.String getmSmallTitle()
+====    60:60:public java.lang.String getmPostTime()
+====    63:64:public void setmPostTime(java.lang.String)
+====    66:66:public java.lang.String getmAuthor()
+====    69:70:public void setmAuthor(java.lang.String)
+====    72:72:public java.lang.String getmKeyWords()
+====    84:84:public java.lang.String getmLastView()
+com.janan.data.bean.OutResumeRecord:
+====    11:11:public java.lang.String getmId()
+====    17:17:public java.lang.String getmJianliId()
+com.janan.data.bean.ShiXi:
+    private java.lang.String newsid
+    private java.lang.String parentid
+    private java.lang.String published
+====    21:21:public java.lang.String getNewsid()
+====    24:25:public void setNewsid(java.lang.String)
+====    27:27:public java.lang.String getParentid()
+====    30:31:public void setParentid(java.lang.String)
+====    57:57:public java.lang.String getPublished()
+====    60:61:public void setPublished(java.lang.String)
+com.janan.data.bean.TabData:
+====    64:64:public java.lang.String getmStringId()
+====    67:67:public android.app.Activity getmActivity()
+com.janan.data.bean.personal.CoverLetter:
+====    37:37:public java.lang.String getmUerId()
+com.janan.data.bean.personal.Resume:
+    public static final java.lang.String TAG_CHINESE
+    public static final java.lang.String TAG_ENGLISH
+    private int mPage
+    private java.lang.String mResidence_Province
+    private java.lang.String mIntentionPlace_Province
+    private java.lang.String mIntentionPlace_City
+    private java.lang.String mIntentionPlace_Area
+    private java.lang.String mIntentionPlace_Province1
+    private java.lang.String mIntentionPlace_City1
+    private java.lang.String mIntentionPlace_Area1
+    private java.lang.String mIntentionPlace_Province2
+    private java.lang.String mIntentionPlace_City2
+    private java.lang.String mIntentionPlace_Area2
+    private java.lang.String mDoor
+    private java.lang.String mDoor_Province
+    private java.lang.String mHeightString
+    private java.lang.String qqString
+    private java.lang.String msnString
+    private com.janan.data.bean.personal.CoverLetter mCoverLetter
+====    28:28:public java.lang.String getmUsername()
+====    36:36:public java.lang.String getmEmailString()
+====    108:108:public java.lang.String getmDoor()
+====    112:113:public void setmDoor(java.lang.String)
+====    116:116:public java.lang.String getmDoor_Province()
+====    120:121:public void setmDoor_Province(java.lang.String)
+====    164:164:public java.lang.String getmIntentionPlace_Province1()
+====    168:169:public void setmIntentionPlace_Province1(java.lang.String)
+====    172:172:public java.lang.String getmIntentionPlace_City1()
+====    176:177:public void setmIntentionPlace_City1(java.lang.String)
+====    180:180:public java.lang.String getmIntentionPlace_Area1()
+====    184:185:public void setmIntentionPlace_Area1(java.lang.String)
+====    196:196:public java.lang.String getmIntentionPlace_Province2()
+====    200:201:public void setmIntentionPlace_Province2(java.lang.String)
+====    204:204:public java.lang.String getmIntentionPlace_City2()
+====    208:209:public void setmIntentionPlace_City2(java.lang.String)
+====    212:212:public java.lang.String getmIntentionPlace_Area2()
+====    216:217:public void setmIntentionPlace_Area2(java.lang.String)
+====    253:253:public java.lang.String getmComid()
+====    281:282:public void setmMemo(java.lang.String)
+====    285:285:public java.lang.String getmJobName()
+====    293:293:public java.lang.String getmYihun()
+====    301:301:public int getmPage()
+====    305:306:public void setmPage(int)
+====    345:346:public void setmResidence(java.lang.String)
+====    369:370:public void setmEducationString(java.lang.String)
+====    373:373:public java.lang.String getmHeightString()
+====    377:378:public void setmHeightString(java.lang.String)
+====    389:389:public com.janan.data.bean.personal.CoverLetter getmCoverLetter()
+====    393:394:public void setmCoverLetter(com.janan.data.bean.personal.CoverLetter)
+====    406:406:public android.widget.LinearLayout createView()
+====    418:418:public java.lang.String getmAgeString()
+====    442:442:public static java.lang.String getTagChinese()
+====    446:446:public static java.lang.String getTagEnglish()
+====    454:455:public void setmHukousuozaidi(java.lang.String)
+====    466:466:public java.lang.String getQqString()
+====    470:471:public void setQqString(java.lang.String)
+====    474:474:public java.lang.String getMsnString()
+====    478:479:public void setMsnString(java.lang.String)
+====    530:530:public java.lang.String getmResidence_Province()
+====    534:535:public void setmResidence_Province(java.lang.String)
+====    554:554:public java.lang.String getmIntentionPlace_Province()
+====    558:559:public void setmIntentionPlace_Province(java.lang.String)
+====    562:562:public java.lang.String getmIntentionPlace_City()
+====    566:567:public void setmIntentionPlace_City(java.lang.String)
+====    570:570:public java.lang.String getmIntentionPlace_Area()
+====    574:575:public void setmIntentionPlace_Area(java.lang.String)
+com.janan.data.bean.personal.User:
+    private java.lang.String mQiyelaixin
+    private java.lang.String mQiuzhijilu
+    private java.lang.String mZhiweishoucang
+    private java.lang.String mWaifajianli
+    private java.lang.String mSeeTimes
+    private com.janan.data.bean.personal.Resume mResume
+    private boolean hasChineseResume
+    private boolean hasEnglishResume
+====    36:36:public java.lang.String getmComId()
+====    172:172:public java.lang.String getmQiyelaixin()
+====    176:177:public void setmQiyelaixin(java.lang.String)
+====    180:180:public java.lang.String getmQiuzhijilu()
+====    184:185:public void setmQiuzhijilu(java.lang.String)
+====    188:188:public java.lang.String getmZhiweishoucang()
+====    192:193:public void setmZhiweishoucang(java.lang.String)
+====    196:196:public java.lang.String getmWaifajianli()
+====    200:201:public void setmWaifajianli(java.lang.String)
+====    204:204:public com.janan.data.bean.personal.Resume getmResume()
+====    208:209:public void setmResume(com.janan.data.bean.personal.Resume)
+====    212:212:public boolean isHasChineseResume()
+====    216:217:public void setHasChineseResume(boolean)
+====    220:220:public boolean isHasEnglishResume()
+====    224:225:public void setHasEnglishResume(boolean)
+====    228:228:public java.lang.String getmSeeTimes()
+====    232:233:public void setmSeeTimes(java.lang.String)
+com.janan.data.bean.search.NearSearch:
+====    88:88:public java.lang.String getmDutyTime()
+====    136:136:public java.lang.String getmIntentPlace_Province()
+====    140:141:public void setmIntentPlace_Province(java.lang.String)
+====    144:144:public java.lang.String getmIntentPlace_City()
+====    148:149:public void setmIntentPlace_City(java.lang.String)
+====    152:152:public java.lang.String getmIntentPlace_Area()
+====    156:157:public void setmIntentPlace_Area(java.lang.String)
+====    196:197:public void setmJobType(java.lang.String)
+com.janan.data.bean.search.ResumeNearSearch
+com.janan.data.bean.search.SearchCheckItem
+com.janan.data.bean.search.SearchCondition:
+====    36:39:public SearchCondition(com.janan.recruit.BaseActivity,int,java.lang.String,boolean)
+====    61:61:public boolean isText()
+====    176:176:public int getmTag()
+com.janan.data.bean.search.SearchResult
+com.janan.data.data.City:
+    private java.lang.String mPid
+====    33:33:public java.lang.String getmPid()
+====    37:38:public void setmPid(java.lang.String)
+====    49:49:public boolean isHasMore()
+====    53:54:public void setHasMore(boolean)
+com.janan.data.data.DataForSearchCondition:
+====    8:8:public DataForSearchCondition()
+====    43:48:public static java.lang.String getJobtypeStr(int)
+====    79:84:public static java.lang.String getBaochizhuStr(int)
+====    104:109:public static java.lang.String getFaburiqiString(int)
+====    126:131:public static java.lang.String getWorkingYearString(int)
+====    162:167:public static java.lang.String getXingbie4SearchString2(int)
+====    186:191:public static java.lang.String getXueliyaoqiuString(int)
+====    223:228:public static int getXingji(java.lang.String)
+====    231:236:public static java.lang.String getXingjiString(int)
+com.janan.data.data.District:
+    private java.lang.String mCID
+====    25:25:public java.lang.String getmCID()
+====    28:29:public void setmCID(java.lang.String)
+com.janan.data.data.JobName:
+    private java.lang.String mJPid
+====    31:31:public java.lang.String getmPid()
+====    35:36:public void setmPid(java.lang.String)
+====    47:47:public boolean isHasMore()
+====    51:52:public void setHasMore(boolean)
+com.janan.net.ApplyEngine:
+====    29:29:public com.janan.data.bean.JobInfo getmInfo()
+====    86:86:public java.util.ArrayList getmList()
+====    90:91:public void setmList(java.util.ArrayList)
+com.janan.net.ApplyRecoedsEngine:
+====    85:85:public int getmPage()
+com.janan.net.BaseEngine:
+    public static final java.lang.String TAG_SEAHCH
+    public static final java.lang.String BaseUrl
+    public static final java.lang.String mSearchUrl
+    public static final java.lang.String mSearchResumeUrl
+    public static final java.lang.String mPersonLoginUrl
+    public static final java.lang.String mPersonLogoutUrl
+    public static final java.lang.String mApplyJobUrl
+    public static final java.lang.String mRegisterUrl
+    public static final java.lang.String mChangePassword
+    public static final java.lang.String mSeeMyResume
+    public static final java.lang.String mApplyRecords
+    public static final java.lang.String mPersonChangePassWord
+    public static final java.lang.String mConpanyChangePassWord
+    public static final java.lang.String mCompanyRegister
+    public static final java.lang.String mCompanyLogin
+    public static final java.lang.String mCompanyChangeData
+    public static final java.lang.String mCompanyDataSearch
+    public static final java.lang.String mCompanyRecieveResume
+    public static final java.lang.String mSendNotify
+    public static final java.lang.String mJobsInfo
+    public static final java.lang.String mGetProvince
+    public static final java.lang.String mGetCities
+    public static final java.lang.String mGetDistrict
+    public static final java.lang.String mGetJobDept
+    public static final java.lang.String mGetJobName
+    public static final java.lang.String mGetJobInfo
+    public static final java.lang.String mSendJobInfo
+    public static final java.lang.String mChangResume
+    public static final java.lang.String mSendResumeOut
+    public static final java.lang.String mSendResumeOutRecords
+    public static final java.lang.String mGetResumePreview
+    public static final java.lang.String mGetSubscribeInfo
+    public static final java.lang.String mSubscribeJob
+    public static final java.lang.String mGetNews
+    public static final java.lang.String mShiXi
+    public static final java.lang.String mGetNewsInfo
+    public static final java.lang.String mGetJobFairsList
+    public static final java.lang.String mRefreshResume
+    public static final int mPageNum
+====    208:209:public boolean isWifiConnected()
+====    213:214:public boolean isMobileConnected()
+====    218:218:public java.lang.String getMsgString()
+====    227:227:public void start(java.util.ArrayList)
+com.janan.net.ChangePassWordEngine:
+====    82:82:public java.lang.String getmOldpass()
+====    88:88:public java.lang.String getmNewPass()
+com.janan.net.CityEngine:
+====    31:31:public java.lang.String getpId()
+====    118:119:public void setmList(java.util.ArrayList)
+com.janan.net.CollectEngine
+com.janan.net.CollectEngine$1
+com.janan.net.CollectionEngine
+com.janan.net.CollectionEngine$1
+com.janan.net.CompanyEmailEngine:
+====    29:29:public int getmTag()
+====    37:38:public void setmList(java.util.ArrayList)
+====    135:135:public int getmPage()
+com.janan.net.CompanyRegisterEngine:
+====    123:123:public com.janan.data.bean.company.CompanyInfo getmmCompany()
+====    131:131:public boolean isChange()
+com.janan.net.DistrictEngine:
+====    30:30:public java.lang.String getpId()
+====    101:102:public void setmList(java.util.ArrayList)
+com.janan.net.EngineUtilInter
+com.janan.net.JobDeptEngine:
+====    82:83:public void setmList(java.util.ArrayList)
+com.janan.net.JobFairsListEngine:
+====    106:106:public int getmPage()
+====    118:119:public void setmList(java.util.ArrayList)
+com.janan.net.JobInfoEngine:
+====    28:28:public com.janan.data.bean.JobInfo getmInfo()
+====    32:33:public void setmInfo(com.janan.data.bean.JobInfo)
+====    142:143:public void setmJobInfo(com.janan.data.bean.JobInfo)
+====    146:146:public java.lang.String getJid()
+com.janan.net.JobNameEngine:
+====    25:25:public java.lang.String getDpId()
+====    95:96:public void setmList(java.util.ArrayList)
+com.janan.net.LoginEngine:
+====    35:35:public java.lang.String getmEmail()
+====    45:45:public java.lang.String getmPassWord()
+com.janan.net.LogoutEngine
+com.janan.net.ProvinceEngine:
+====    103:104:public void setmList(java.util.ArrayList)
+com.janan.net.RecieveResumesEngine:
+====    119:120:public void setmList(java.util.ArrayList)
+====    122:122:public java.lang.String getJobIdString()
+====    128:128:public java.lang.String getPersonIdString()
+====    134:134:public java.lang.String getDateString()
+com.janan.net.RegisterEngine:
+    private java.lang.String mConfirmPass
+====    83:83:public java.util.ArrayList getmList()
+====    87:88:public void setmList(java.util.ArrayList)
+====    90:90:public java.lang.String getmUserName()
+====    96:96:public java.lang.String getmPassWord()
+====    102:102:public java.lang.String getmConfirmPass()
+====    105:106:public void setmConfirmPass(java.lang.String)
+====    108:108:public java.lang.String getmEmail()
+====    114:114:public java.lang.String getmUserTypeString()
+====    120:120:public java.lang.String getmQQ()
+com.janan.net.ResumeInfoChangeEngine:
+====    31:31:public com.janan.data.bean.personal.Resume getmResume()
+com.janan.net.ResumeInfoEngine:
+====    145:146:public void setmResume(com.janan.data.bean.personal.Resume)
+====    148:148:public java.lang.String getPerId()
+com.janan.net.SearchEngine:
+====    37:37:public com.janan.data.bean.search.NearSearch getmSearchkeys()
+====    45:45:public int getmPage()
+====    255:256:public void setmList(java.util.ArrayList)
+com.janan.net.SearchResumeEngine:
+====    37:37:public com.janan.data.bean.search.NearSearch getmSearchkeys()
+====    45:45:public int getmPage()
+====    214:215:public void setmList(java.util.ArrayList)
+====    220:220:public boolean isSubscribe()
+====    226:227:public void setSubscribe(boolean)
+com.janan.net.SendJobsInfoEngine:
+====    96:96:public com.janan.data.bean.JobInfo getmInfo()
+com.janan.net.SendResumeOutEngine:
+====    82:82:public java.lang.String getJobName()
+====    92:92:public java.lang.String getComName()
+====    102:102:public java.lang.String getComEmail()
+com.janan.net.SendResumeOutRecordsEngine:
+====    94:95:public void setmList(java.util.ArrayList)
+com.janan.net.SubscribeJobEngine:
+====    37:37:public int getmPage()
+====    272:273:public void setmList(java.util.ArrayList)
+====    276:276:public boolean isSubscribe()
+====    284:284:public com.janan.data.bean.search.NearSearch getmSearchkeys()
+com.janan.net.WorkDynamicsInfoEngine:
+====    94:95:public void setmNews(com.janan.data.bean.News)
+====    98:98:public java.lang.String getNewsId()
+com.janan.net.WorkDynamicsListEngine:
+====    124:124:public int getmPage()
+====    136:137:public void setmList(java.util.ArrayList)
+====    140:140:public boolean isShixi()
+====    152:153:public void setShiList(java.util.ArrayList)
+com.janan.recruit.ActivityStatus
+com.janan.recruit.BaseActivity:
+    public com.janan.net.BaseEngine mEngine
+    public static final int CallbackSuccess
+    public static final int CallbackApplySuccess
+    public static final int CallbackError
+    public static final int CallbacknetError
+    public static final int CallbackSendSuccess
+    public static final int CallbackSubscribeSearch
+    public static final int CallbackSearchSuccess
+    public static final int CallbackRefreshSuccess
+    public static final int handle_MSG
+    public static final int handle_Login
+    public static final int handle_Logout
+    public static final int handle_Apply
+    public static final int handle_Subscribe
+    public static final int handle_Collection
+    public static final int handle_Share
+    public static final int applyStartLoginRequestCode
+    public static final java.lang.String TAG_PERSON
+    public static final java.lang.String TAG_COMPANYAUTO
+    public static final java.lang.String TAG_PERSONAUTO
+    public static final java.lang.String TAG_STARTFROMAPPLY
+    public static final java.lang.String TAG_FROMFAST
+    public static final int RegisterRequest
+====    110:110:public void saveData()
+====    187:187:public android.os.Handler getmHandler()
+com.janan.recruit.WelcomeActivity:
+    public static final int DB_OK
+com.janan.recruit.companyactivity.CompanyInfoActivity:
+====    75:76:public void saveData()
+com.janan.recruit.companyactivity.SearchResumeActivity:
+    private com.janan.view.mamager.TitleBarManager mBarUtil
+com.janan.recruit.personalactivity.CompanyEmailActivity:
+====    65:66:public void saveData()
+com.janan.recruit.personalactivity.ConverLetterActivity:
+    private com.janan.view.mamager.TitleBarManager mBarUtil
+com.janan.recruit.personalactivity.JobsListActivity:
+    private java.util.ArrayList mList
+com.janan.recruit.personalactivity.PersonalAcitivty:
+    com.janan.net.LogoutEngine mLogoutEngine
+====    263:264:public void saveData()
+com.janan.recruit.personalactivity.ResumeChangeActivity:
+    private static final int mLimit
+====    99:100:public void saveData()
+====    615:615:private void searchResume()
+com.janan.recruit.personalactivity.SeeMyResumeCompanyActivity:
+====    48:49:public void saveData()
+com.janan.recruit.searchactivity.JobInfoActivity:
+====    128:129:public void saveData()
+====    220:220:private void startCollect()
+com.janan.recruit.searchactivity.SearchActivity:
+====    78:78:public void saveData()
+com.janan.recruit.searchactivity.SearchCheckInfoActivity:
+====    64:65:public void saveData()
+com.janan.recruit.searchactivity.SearchResultActivity:
+====    86:87:public void saveData()
+====    292:292:public java.util.ArrayList getmList()
+====    296:297:public void setmList(java.util.ArrayList)
+com.janan.recruit.searchactivity.ShiXiActivity:
+    private com.janan.view.mamager.TitleBarManager mBarUtil
+com.janan.util.CityParseHandler
+com.janan.util.DBHelper:
+    private static final java.lang.String DB_NAME
+    public static final java.lang.String ID
+    public static final java.lang.String PID
+    public static final java.lang.String CID
+    public static final java.lang.String NAME
+    public static final java.lang.String TABLE_CITYS
+    public static final java.lang.String TABLE_DISTRICTS
+    public static final java.lang.String TABLE_PROVINCES
+    public static final java.lang.String TABLE_USER
+    public static final java.lang.String USERNAME
+    public static final java.lang.String PASSWORD
+    public static final java.lang.String USEREMAIL
+    public static final java.lang.String USERTYPE
+    public static final java.lang.String TABLE_COMPANY
+    public static final java.lang.String TABLE_NEARSEARCH
+    public static final java.lang.String TABLE_JOB
+    public static final java.lang.String JOB_ID
+    public static final java.lang.String JOB_NAME
+    public static final java.lang.String JOB_CONPANYNAME
+    public static final java.lang.String JOB_CITY
+    public static final java.lang.String JOB_AREA
+    public static final java.lang.String JOB_VIEW_CLICKS
+    public static final java.lang.String JOB_LASTUPDATE
+    public static final java.lang.String SQL_CREATECITYS
+    public static final java.lang.String SQL_CREATEDISTRICTS
+    public static final java.lang.String SQL_CREATEPROVINCES
+    public static final java.lang.String SQL_CREATEUSER
+    public static final java.lang.String SQL_CREATECOMPANY
+    public static final java.lang.String SQL_CREATEJOB
+    private static final int version
+====    305:314:public int checkSize(java.lang.String)
+====    318:325:public void setCity(com.janan.data.data.City)
+====    328:335:public void setProvince(com.janan.data.data.Province)
+====    338:345:public void setDistrict(com.janan.data.data.District)
+====    348:349:public void closeDB()
+====    352:372:public java.util.ArrayList getCitiesByPid(java.lang.String)
+====    376:396:public java.util.ArrayList getAllCities()
+====    400:418:public java.util.ArrayList getAllProvinces()
+====    423:444:public java.util.ArrayList getAllDistricts()
+====    448:469:public java.util.ArrayList getDistrictsByCid(java.lang.String)
+com.janan.util.DistrictParseHandler
+com.janan.util.LocationUtil:
+    private static android.telephony.TelephonyManager telephonyManager
+    private static java.lang.String IMSI
+====    33:33:public LocationUtil()
+====    245:260:public static java.lang.String GetHostIp()
+com.janan.util.MobileService
+com.janan.util.PreferenceUtil
+com.janan.util.ProvinceParseHandler
+com.janan.util.RequestAndResultCode
+com.janan.util.StreamTool
+com.janan.util.Util:
+====    20:20:public Util()
+====    67:70:public static java.lang.String[] splitDate(java.lang.String)
+====    75:78:public static java.lang.String[] splitPlace(java.lang.String)
+com.janan.util.XMLUtil
+com.janan.util.activity.CityActivity:
+====    54:55:public void saveData()
+com.janan.util.activity.DistrictActivity:
+====    54:55:public void saveData()
+com.janan.util.activity.JobDeptActivity:
+====    65:66:public void saveData()
+com.janan.util.activity.JobNameActivity:
+====    54:55:public void saveData()
+com.janan.util.activity.ProvinceActivity:
+====    64:65:public void saveData()
+com.janan.view.mamager.FooterBarViewUtil
+com.janan.view.mamager.NearSearchManager
+com.janan.view.mamager.NearSearchManager$1
+com.janan.view.mamager.NearSearchManager$2
+com.janan.view.mamager.PersonalInfoViewUtil
+com.janan.view.mamager.SearchCheckInfoManager
+com.janan.view.mamager.SearchConditionsManager:
+    public static final int mSubscribe
+    public static final int mSearch
+    public static final int mSearchResume
+    public static final int quickSize
+    public static final int advancedSize
+====    44:49:public SearchConditionsManager(com.janan.recruit.BaseActivity,boolean,boolean,int)
+====    83:87:public java.lang.String getDate(int)
+====    473:473:public com.janan.recruit.BaseActivity getmActivity()
+====    477:478:public void setmActivity(com.janan.recruit.BaseActivity)
+====    481:481:public boolean isAdvanced()
+====    493:493:public java.util.HashMap getQuickMap()
+====    497:498:public void setQuickMap(java.util.HashMap)
+====    501:501:public java.util.HashMap getAdvancedMap()
+====    505:506:public void setAdvancedMap(java.util.HashMap)
+====    509:509:public boolean isHasButton()
+====    523:527:public void changeValueById(int,java.lang.String)
+====    530:530:public int getmTag()
+com.janan.view.mamager.ShowLineLinearLayout:
+====    11:17:public ShowLineLinearLayout(android.content.Context)
+====    25:26:public void setPaintColor(int)
+com.janan.view.mamager.SubScribeJobManager
+com.janan.view.mamager.TitleBarManager:
+====    45:48:public void changeTitle(java.lang.String)
+====    79:79:public android.widget.ImageView getmLeftButton()
+====    87:87:public boolean ismLeftClick()
+====    91:92:public void setmLeftClick(boolean)
+com.janan.view.mamager.ViewManageStatus

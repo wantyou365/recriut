@@ -1,0 +1,702 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_conpanyinfoactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:padding="@dimen/textblankpadding_large" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:id="@+id/usernamelayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="用户名"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/username"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入4到20个字符的用户名"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/emaillayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="邮箱"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/email"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入邮箱"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/passwordlayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="密码"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/password"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3"
+						android:password="true" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入6到20个字母(区分大小写)或数字"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/confirmlayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="确认密码"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/confirmpass"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3"
+						android:password="true" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请再次输入密码"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/companynamelayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="公司名称"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/companyname"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入公司名称"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/contactlayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="联系人"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/contactname"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入联系人"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/arealayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="地区"
+						android:textSize="@dimen/searchwords" />
+
+					<TextView
+						android:id="@+id/area"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:gravity="center_horizontal"
+						android:padding="@dimen/textblankpadding_3"
+						android:text="@string/select" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请选择所在地区"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/addresslayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="详细地址"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/address"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入详细地址"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/phonelayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="电话号码"
+						android:textSize="@dimen/searchwords" />
+
+					<EditText
+						android:id="@+id/phone"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:padding="@dimen/textblankpadding_3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请输入联系电话"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/hangye"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="所属行业"
+						android:textSize="@dimen/searchwords" />
+
+					<TextView
+						android:id="@+id/suoshuhangye"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:gravity="center_horizontal"
+						android:padding="@dimen/textblankpadding_3"
+						android:text="@string/select" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请选择所属行业"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/leixing"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="酒店类型"
+						android:textSize="@dimen/searchwords" />
+
+					<TextView
+						android:id="@+id/jiudianleixing"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:gravity="center_horizontal"
+						android:padding="@dimen/textblankpadding_3"
+						android:text="@string/select" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请选择酒店类型"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/xingji"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/textblankpadding_large"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:padding="@dimen/textblankpadding"
+						android:text="星级标准"
+						android:textSize="@dimen/searchwords" />
+
+					<TextView
+						android:id="@+id/xingjibiaozhun"
+						android:layout_width="0dip"
+						android:layout_height="30dip"
+						android:layout_weight="2"
+						android:background="@drawable/orangeeditselector"
+						android:gravity="center_horizontal"
+						android:padding="@dimen/textblankpadding_3"
+						android:text="@string/select" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingLeft="@dimen/textblankpadding_20"
+					android:paddingRight="@dimen/textblankpadding_20" >
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.2"
+						android:paddingLeft="@dimen/textblankpadding_20"
+						android:text="  "
+						android:textSize="@dimen/noemail" />
+
+					<TextView
+						android:layout_width="0dip"
+						android:layout_height="wrap_content"
+						android:layout_weight="2"
+						android:text="请选择星级标准"
+						android:textSize="@dimen/subscribejobnamesize" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/jianjie"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="vertical"
+				android:paddingLeft="@dimen/textblankpadding"
+				android:visibility="gone" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/qiyejianjie"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/jianjieedit"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/orangeeditselector"
+					android:minHeight="150dip"
+					android:padding="@dimen/textblankpadding_3"
+					android:gravity="top|left"
+					 />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:layout_marginTop="@dimen/textblankpadding_20"
+		android:onClick="registerOnclick"
+		android:text="同意服务条款，注册" />
+
+</LinearLayout>

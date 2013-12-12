@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/searchkeylay"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	android:layout_marginLeft="@dimen/textblankpadding"
+	android:layout_marginRight="@dimen/textblankpadding"
+	android:layout_marginTop="25dip"
+	android:background="@drawable/searchkeysback"
+	android:gravity="center_horizontal"
+	>
+	
+</LinearLayout>

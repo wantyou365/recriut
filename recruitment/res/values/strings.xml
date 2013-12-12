@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello World, RecruitmentActivity!</string>
+	<string name="app_name">第一团队</string>
+	<string name="tab_business">企业中心</string>
+	<string name="tab_personal">个人中心</string>
+	<string name="tab_subscribe">职位订阅</string>
+	<string name="tab_search">搜索</string>
+	<string name="tab_dynamics">职场动态</string>
+	<string name="tab_tag_business">business</string>
+	<string name="tab_tag_personal">personal</string>
+	<string name="tab_tag_subscribe">subscribe</string>
+	<string name="tab_tag_search">search</string>
+	<string name="tab_tag_dynamics">dynamics</string>
+	<string name="activitytitle_search">职位搜索</string>
+	<!-- 搜索条件（keys） -->
+	<string name="yixiangzhiwei">意向职位</string>
+	<string name="yixiangdidian">意向地点</string>
+	<string name="faburiqi">发布日期</string>
+	<string name="guanjianci">关键词</string>
+	<string name="gongzuonianxian">工作年限</string>
+	<string name="xingbieyaoqiu">性别要求</string>
+	<string name="nianling">年龄</string>
+	<string name="daogangshijian">到岗时间</string>
+	<string name="xueliyaoqiu">学历要求</string>
+	<string name="hangye">行业</string>
+	<string name="xingji">星级</string>
+	<string name="qiwangyuexin">期望月薪</string>
+	<string name="zixuanxiangqing">资讯详情</string>
+	<string name="zixuandongtai">资讯动态</string>
+	<!-- 搜索条件（values） -->
+	<string name="buxian">不限</string>
+	
+	<!-- 搜索条件选择title -->
+	<string name="zhiweileibie">请选择职位类别</string>
+	<string name="xuanzediqu">请选择地区</string>
+	
+	<string name="nosubscribetitle">目前订阅条件下没有适合职位，建议您：</string>
+	<string name="nosubscribecontent">1、重新选择职位和地点\n\n2、输入具体职位名，如：前厅经理\n\n3、检查关键字是否输入有误</string>
+	<string name="jobinfotitle">职位详情</string>
+	<string name="gongzuodidian">工作地点</string>	
+	<string name="gongzuojingyan">工作经验</string>
+	<string name="xinzidaiyu">薪资待遇</string>
+	<string name="zhaopinbumen">招聘部门</string>
+	<string name="zhaopinrenshu">招聘人数</string>
+	<string name="toudirenshu">投递人数</string>
+	
+	
+	<string name="jiezhiriqi">截止日期</string>
+	<string name="gongzuoshijian">工作时间</string>
+	<string name="chizhuqingkuang">吃住情况</string>
+	<string name="gongzuoleixing">职位类型</string>
+	<string name="nianlingyaoqiu">年龄要求</string>
+	<string name="gongzuoxingzhi">工作性质</string>
+	<string name="hunyinzhuangkuang">婚姻状况</string>
+	<string name="suozaidi">所在地</string>
+	<string name="yuyanyaoqiu">语言要求</string>
+	<string name="hujidi">户籍地</string>
+	<string name="jisuanjinengli">计算机能力</string>
+	<string name="tigongshisu">提供食宿</string>
+	<string name="guojilianhaojingli">国际联号经历</string>
+	<string name="zhiweimiaoshu">职位描述</string>
+	<string name="lianxiwomen">联系我们</string>
+	<string name="qitazhiwei">该企业其他职位</string>
+	
+	<string name="zhaopinzhiwei">招聘职位</string>
+	<string name="zhiweixiangguan">职位相关</string>
+	<string name="jianlixiangguan">简历相关</string>
+	<string name="waifajianlixiangguan">外发简历相关</string>
+	<string name="title_gerenzhongxin">个人中心</string>
+	<string name="liulanwojianlideqiye">浏览我简历的企业</string>
+	<string name="qiyelaixin">企业来信</string>
+	<string name="qiuzhijilu">求职记录</string>
+	<string name="zhiweishoucangjia">职位收藏夹</string>
+	<string name="xiugaiweijianli">修改简历</string>
+	<string name="bianjijianli">编辑简历</string>
+	<string name="yulanjianli">预览简历</string>
+	<string name="shuaxinjianli">刷新简历</string>
+	<string name="waifajianli">外发简历</string>
+	<string name="waifajianlijilu">外发简历记录</string>
+	<string name="xiugaimima">修改密码</string>
+	<string name="shoucangkuanli">收藏管理</string>
+	<string name="waiting">请等待...</string>
+	<string name="getmore">点击加载更多</string>
+	<string name="company_register">公司注册</string>
+	<string name="agree">同意服务条款，注册</string>
+	<string name="comfirmchange">确认修改</string>
+	<string name="nextstep">下一步</string>
+	<string name="notifysuccess">通知成功</string>
+	<string name="searchresumeresult">简历所搜结果</string>
+	<string name="jobtype">工作类型</string>
+	<string name="jobname">工作名称</string>
+	<string name="personalResumePreview">个人简历预览</string>
+	<!-- 简历 -->
+	<string name="xingming">姓名</string>
+	<string name="xingbie">性别</string>
+	<string name="shoujihaoma">手机号码</string>
+	<string name="chushengriqi">出生日期</string>
+	<string name="xianzaizhudi">现居住地</string>
+	<string name="changresumetitle1">请填写基本信息</string>
+	<string name="changresumetitle2">请填写求职信</string>
+	<string name="confirmchange">确认修改</string>
+	<string name="realname">真实姓名</string>
+	<string name="phonenum">手机号码</string>
+	<string name="minzu">民族</string>
+	<string name="zuigaoxueli">最高学历</string>
+	<string name="biyexuexiao">毕业学校</string>
+	<string name="zhuanyeleibie">专业类别</string>
+	<string name="zhuanye">专业</string>
+	<string name="biyeshijian">毕业时间</string>
+	<string name="hukousuozaidi">户口所在地</string>
+	<string name="qiwangxinzi">期望薪资</string>
+	<string name="select">请选择</string>
+	<string name="qqmsn">qq或msn</string>
+	<string name="qiwanggongzuoleixing">期望工作类型</string>
+	<string name="qiwangguozuo">意向职位</string>
+	<string name="qiwanggongzuodidian">期望工作地区</string>
+	<string name="qiuzhixin">求职信</string>
+	<string name="gerenjianjie">个人简介</string>
+	<string name="qiyejianjie">企业简介</string>
+	
+	<!-- 意向地点 -->
+	<!-- 意向职位 -->
+	
+	<string name="apply">申请</string>
+	<string name="conllect">收藏</string>
+	<string name="share">分享</string>
+	
+	
+	<string name="qiyexinxi">企业信息</string>
+	
+	<string name="mimaxiugai">密码修改</string>
+	<string name="xinxifabu">招聘信息发布</string>
+	<string name="shoudaojianli">收到简历</string>
+	<string name="mianshitongzhi">面试通知</string>
+	
+	<string name="confirmaccounttitle">确认用户</string>
+	<string name="username">用户名</string>
+	<string name="userpassword">密码</string>
+	<string name="confirmpassword">确认密码</string>
+	<string name="useremail">邮箱</string>
+	<string name="confirm">确认</string>
+	<string name="welcomeback">欢迎回来:</string>
+	<string name="jobinfo_lianxiren">联系人:</string>
+	<string name="jobinfo_dianhua">电话:</string>
+	<string name="jobinfo_chuanzhen">传真:</string>
+	<string name="jobinfo_youxiang">邮箱:</string>
+	<string name="jobinfo_dizhi">地址:</string>
+	<string name="resume_xingming">姓名:</string>
+	<string name="resume_xingbie">性别:</string>
+	<string name="resume_minzu">民族:</string>
+	<string name="resume_xueli">学历:</string>
+	<string name="resume_gongzuonianxian">工作年限:</string>
+	<string name="resume_biyexuexiao">毕业学校:</string>
+	<string name="resume_zhuanye">专业:</string>
+	<string name="jobfairsinfoactivity_comefrom">来自:</string>
+	<string name="jobfairs_title">招聘会</string>
+	<string name="searchresult">搜索结果</string>
+	<!--外发简历  -->
+	<string name="zhiweimingcheng_waifa">职位名称</string>
+	<string name="qiyemingcheng_waifa">企业名称</string>
+	<string name="qiyeyouxiang_waifa">企业邮箱</string>
+	
+	<!-- 发布职位 -->
+	<string name="zhiweimingchen_fabu">职位名称</string>
+	<string name="gongzuodidian_fabu">工作地点</string>
+	<string name="zhaopinleibie_fabu">招聘类别</string>
+	<string name="baochizhu_fabu">包吃住</string>
+	<string name="gongzuoshijian_fabu">工作时间</string>
+	<string name="jiezhiriqi_fabu">截止日期</string>
+	<string name="gongzuoleibie_fabu">工作类别</string>
+	<string name="zhaopinduixiang_fabu">招聘对象</string>
+	<string name="gongzuojingyan_fabu">工作经验</string>
+	<string name="xinzidaiyu_fabu">薪资待遇</string>
+	<string name="zhaopinrenshu_fabu">招聘人数</string>
+	<string name="zhaopingyaoqiu_fabu">招聘要求</string>
+	<string name="selectprovince">请选择省份</string>
+	<string name="jipinzhiwei">急聘职位</string>
+	<string name="wuxingjizhaopin">5星级招聘</string>
+	<string name="sixingjizhaopin">4星级招聘</string>
+	<string name="shixishengpaiqian">实习生派遣</string>
+	<string name="mingquexinzi">明确薪资</string>
+	<string name="baochibaozhu">包吃包住</string>
+	<string name="jiudianzhiwei">酒店职位</string>
+	<string name="canyinzhiwei">餐饮职位</string>
+	<string name="wenzhizhiwei">文职职位</string>
+	<string name="wenzhi">文职</string>
+	<string name="shixisheng"></string>
+	<string name="shixishengzhiwei">实习生职位</string>
+	<!-- toast -->
+	<string name="toast_neterror">网络连接没有打开</string>
+	<string name="toast_neterror1">网络连接异常</string>
+	<string name="toast_neterror2">网络数据异常</string>
+	<string name="change_sccuess">修改成功</string>
+	<string name="toast_nojob">没有您所要查找的职位</string>
+	<string name="toast_noresume">没有您所要查找的简历</string>
+	<string name="toastNullString">输入项均为必填项，不能为空</string>
+	<string name="toastPassErrorString">两次输入密码必须相同</string>
+	<string name="toastRegisterSuccess">注册成功，请登录</string>
+	<string name="toastWrongEmail">请输入正确的邮箱格式</string>
+	<string name="toastLoginError">用户名或密码不能为空</string>
+	<string name="toastRegister">注册成功，请登录</string>
+	<string name="toastChangSuccess">修改成功</string>
+	<string name="toastFabuSuccess">发布成功</string>
+	<string name="toastrefreshsuccess">刷新成功</string>
+	<string name="toastNoResumes">您现在没有收到简历</string>
+	<string name="toastSureLogin">请先登录个人中心</string>
+	<string name="toastChangeNotiPerson">请选择通知人员</string>
+	<string name="toastErrorAll">所有选项均为必填项，请填写完整</string>
+	<string name="toastconfirmpassword">请确认两次输入的新密码相同</string>
+	<string name="toastwaifasuccess">外发成功</string>
+	<string name="toastregistersuccess">申请成功</string>
+	<string name="toastnumerror">手机号码必须为11位数</string>
+	<string name="toastnameerror">真实姓名不能为空</string>
+	<string name="toastzhangpinerror">请填写完整的招聘信息</string>
+	<string name="toastchangeresumeerror">真实姓名或性别不能为空</string>
+	<string name="jobcollected">职位已收藏</string>
+	<string name="jobcollectedsuccess">收藏成功</string>
+	<string name="pleaseeditkeyword">请填写关键词</string>
+	<string name="pleaseselectintentplace">请选择意向地点</string>
+	<string name="oredit">或者填写</string>
+	<string name="aftertosearch">后进行搜索</string>
+	<string name="pleaseeditrightemail">请填写正确的邮箱格式</string>
+	<!-- dialog -->
+	<string name="logouttitle">是否决定注销？</string>
+	<string name="editresume">是否编辑简历？</string>
+	<string name="submit">确定</string>
+	<string name="cancle">取消</string>
+	<string name="timedialogtitle">请选择面试日期</string>
+	<string name="timedialogtitle1">请选择面试时间</string>
+	<string name="selectjobclass">请选择工作类别</string>
+</resources>

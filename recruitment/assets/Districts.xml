@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Districts>
+	<District ID="1" DistrictName="东城区" CID="1">东城区</District>
+	<District ID="2" DistrictName="西城区" CID="1">西城区</District>
+	<District ID="3" DistrictName="崇文区" CID="1">崇文区</District>
+	<District ID="4" DistrictName="宣武区" CID="1">宣武区</District>
+	<District ID="5" DistrictName="朝阳区" CID="1">朝阳区</District>
+	<District ID="6" DistrictName="丰台区" CID="1">丰台区</District>
+	<District ID="7" DistrictName="石景山区" CID="1">石景山区</District>
+	<District ID="8" DistrictName="海淀区" CID="1">海淀区</District>
+	<District ID="9" DistrictName="门头沟区" CID="1">门头沟区</District>
+	<District ID="10" DistrictName="房山区" CID="1">房山区</District>
+	<District ID="11" DistrictName="通州区" CID="1">通州区</District>
+	<District ID="12" DistrictName="顺义区" CID="1">顺义区</District>
+	<District ID="13" DistrictName="昌平区" CID="1">昌平区</District>
+	<District ID="14" DistrictName="大兴区" CID="1">大兴区</District>
+	<District ID="15" DistrictName="怀柔区" CID="1">怀柔区</District>
+	<District ID="16" DistrictName="平谷区" CID="1">平谷区</District>
+	<District ID="17" DistrictName="密云县" CID="1">密云县</District>
+	<District ID="18" DistrictName="延庆县" CID="1">延庆县</District>
+	<District ID="19" DistrictName="和平区" CID="2">和平区</District>
+	<District ID="20" DistrictName="河东区" CID="2">河东区</District>
+	<District ID="21" DistrictName="河西区" CID="2">河西区</District>
+	<District ID="22" DistrictName="南开区" CID="2">南开区</District>
+	<District ID="23" DistrictName="河北区" CID="2">河北区</District>
+	<District ID="24" DistrictName="红桥区" CID="2">红桥区</District>
+	<District ID="25" DistrictName="塘沽区" CID="2">塘沽区</District>
+	<District ID="26" DistrictName="汉沽区" CID="2">汉沽区</District>
+	<District ID="27" DistrictName="大港区" CID="2">大港区</District>
+	<District ID="28" DistrictName="东丽区" CID="2">东丽区</District>
+	<District ID="29" DistrictName="西青区" CID="2">西青区</District>
+	<District ID="30" DistrictName="津南区" CID="2">津南区</District>
+	<District ID="31" DistrictName="北辰区" CID="2">北辰区</District>
+	<District ID="32" DistrictName="武清区" CID="2">武清区</District>
+	<District ID="33" DistrictName="宝坻区" CID="2">宝坻区</District>
+	<District ID="34" DistrictName="宁河县" CID="2">宁河县</District>
+	<District ID="35" DistrictName="静海县" CID="2">静海县</District>
+	<District ID="36" DistrictName="蓟县" CID="2">蓟县</District>
+
+
+	<District CID="9" DistrictName="黄浦区" ID="719">黄浦区</District>
+	<District CID="9" DistrictName="卢湾区" ID="720">卢湾区</District>
+	<District CID="9" DistrictName="徐汇区" ID="721">徐汇区</District>
+	<District CID="9" DistrictName="长宁区" ID="722">长宁区</District>
+	<District CID="9" DistrictName="静安区" ID="723">静安区</District>
+	<District CID="9" DistrictName="普陀区" ID="724">普陀区</District>
+	<District CID="9" DistrictName="闸北区" ID="725">闸北区</District>
+	<District CID="9" DistrictName="虹口区" ID="726">虹口区</District>
+	<District CID="9" DistrictName="杨浦区" ID="727">杨浦区</District>
+	<District CID="9" DistrictName="闵行区" ID="728">闵行区</District>
+	<District CID="9" DistrictName="宝山区" ID="729">宝山区</District>
+	<District CID="9" DistrictName="嘉定区" ID="730">嘉定区</District>
+	<District CID="9" DistrictName="浦东新区" ID="731">浦东新区</District>
+	<District CID="9" DistrictName="金山区" ID="732">金山区</District>
+	<District CID="9" DistrictName="松江区" ID="733">松江区</District>
+	<District CID="9" DistrictName="青浦区" ID="734">青浦区</District>
+	<District CID="9" DistrictName="南汇区" ID="735">南汇区</District>
+	<District CID="9" DistrictName="奉贤区" ID="736">奉贤区</District>
+	<District CID="9" DistrictName="崇明县" ID="737">崇明县</District>
+
+	<District CID="22" DistrictName="万州区" ID="2000">万州区</District>
+	<District CID="22" DistrictName="涪陵区" ID="2001">涪陵区</District>
+	<District CID="22" DistrictName="渝中区" ID="2002">渝中区</District>
+	<District CID="22" DistrictName="大渡口区" ID="2003">大渡口区</District>
+	<District CID="22" DistrictName="江北区" ID="2004">江北区</District>
+	<District CID="22" DistrictName="沙坪坝区" ID="2005">沙坪坝区</District>
+	<District CID="22" DistrictName="九龙坡区" ID="2006">九龙坡区</District>
+	<District CID="22" DistrictName="南岸区" ID="2007">南岸区</District>
+	<District CID="22" DistrictName="北碚区" ID="2008">北碚区</District>
+	<District CID="22" DistrictName="万盛区" ID="2009">万盛区</District>
+	<District CID="22" DistrictName="双桥区" ID="2010">双桥区</District>
+	<District CID="22" DistrictName="渝北区" ID="2011">渝北区</District>
+	<District CID="22" DistrictName="巴南区" ID="2012">巴南区</District>
+	<District CID="22" DistrictName="黔江区" ID="2013">黔江区</District>
+	<District CID="22" DistrictName="长寿区" ID="2014">长寿区</District>
+	<District CID="22" DistrictName="綦江县" ID="2015">綦江县</District>
+	<District CID="22" DistrictName="潼南县" ID="2016">潼南县</District>
+	<District CID="22" DistrictName="铜梁县" ID="2017">铜梁县</District>
+	<District CID="22" DistrictName="大足县" ID="2018">大足县</District>
+	<District CID="22" DistrictName="荣昌县" ID="2019">荣昌县</District>
+	<District CID="22" DistrictName="璧山县" ID="2020">璧山县</District>
+	<District CID="22" DistrictName="梁平县" ID="2021">梁平县</District>
+	<District CID="22" DistrictName="城口县" ID="2022">城口县</District>
+	<District CID="22" DistrictName="丰都县" ID="2023">丰都县</District>
+	<District CID="22" DistrictName="垫江县" ID="2024">垫江县</District>
+	<District CID="22" DistrictName="武隆县" ID="2025">武隆县</District>
+	<District CID="22" DistrictName="忠县" ID="2026">忠县</District>
+	<District CID="22" DistrictName="开县" ID="2027">开县</District>
+	<District CID="22" DistrictName="云阳县" ID="2028">云阳县</District>
+	<District CID="22" DistrictName="奉节县" ID="2029">奉节县</District>
+	<District CID="22" DistrictName="巫山县" ID="2030">巫山县</District>
+	<District CID="22" DistrictName="巫溪县" ID="2031">巫溪县</District>
+	<District CID="22" DistrictName="石柱土家族自治县" ID="2032">石柱土家族自治县
+	</District>
+	<District CID="22" DistrictName="秀山土家族苗族自治县" ID="2033">秀山土家族苗族自治县
+	</District>
+	<District CID="22" DistrictName="酉阳土家族苗族自治县" ID="2034">酉阳土家族苗族自治县
+	</District>
+	<District CID="22" DistrictName="彭水苗族土家族自治县" ID="2035">彭水苗族土家族自治县
+	</District>
+	<District CID="22" DistrictName="江津市" ID="2036">江津市</District>
+	<District CID="22" DistrictName="合川市" ID="2037">合川市</District>
+	<District CID="22" DistrictName="永川市" ID="2038">永川市</District>
+	<District CID="22" DistrictName="南川市" ID="2039">南川市</District>
+
+</Districts>

@@ -1,0 +1,714 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rootlay_resumactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/titletextview"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/changresumetitle1"
+		android:textSize="@dimen/changpassmar" />
+
+	<ScrollView
+		android:id="@+id/part2"
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:paddingLeft="@dimen/textblankpadding_20"
+		android:paddingRight="@dimen/textblankpadding_20"
+		android:scrollbars="none"
+		android:visibility="visible" >
+
+		<LinearLayout
+			android:id="@+id/scrollchild"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/realname"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/realname"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:padding="@dimen/textblankpadding_3" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/xingbie"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/xingbie"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/phonenum"
+					android:textSize="@dimen/searchwords" />
+
+				<EditText
+					android:id="@+id/phoneNum"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:padding="@dimen/textblankpadding_3" />
+			</LinearLayout>
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/minzu" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <EditText -->
+			<!-- android:id="@+id/minzu" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/nianling" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <EditText -->
+			<!-- android:id="@+id/nianling" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/zuigaoxueli" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/xueli" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:gravity="center" -->
+			<!-- android:text="@string/select" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/biyexuexiao" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <EditText -->
+			<!-- android:id="@+id/biyexuexiao" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/zhuanyeleibie" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <EditText -->
+			<!-- android:id="@+id/zhuanyeleibie" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/zhuanye" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <EditText -->
+			<!-- android:id="@+id/zhuanye" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/biyeshijian" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/biyeshijian" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" -->
+			<!-- android:text="@string/select" -->
+			<!-- android:gravity="center" -->
+			<!-- /> -->
+			<!-- </LinearLayout> -->
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="生日"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/brithday"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/hukousuozaidi" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/hukouplace" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:gravity="center" -->
+			<!-- android:text="@string/select" /> -->
+			<!-- </LinearLayout> -->
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/xianzaizhudi"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/liveplace"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/gongzuonianxian" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/gongzuonianxian" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:gravity="center" -->
+			<!-- android:text="@string/select" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/qiwangxinzi" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/qiwangxinzi" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:gravity="center" -->
+			<!-- android:text="@string/select" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/qqmsn" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <EditText -->
+			<!-- android:id="@+id/msnqq" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:padding="@dimen/textblankpadding_3" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:text="@string/qiwanggongzuoleixing" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/qiwanggongzuoleixing" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="30dip" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:background="@drawable/orangeeditselector" -->
+			<!-- android:gravity="center" -->
+			<!-- android:text="@string/select" /> -->
+			<!-- </LinearLayout> -->
+
+
+			<!-- <LinearLayout -->
+			<!-- android:layout_width="match_parent" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_marginTop="@dimen/changpassmar" -->
+			<!-- android:orientation="horizontal" > -->
+
+
+			<!-- <TextView -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="1.2" -->
+			<!-- android:padding="@dimen/textblankpadding" -->
+			<!-- android:textSize="@dimen/searchwords" /> -->
+
+
+			<!-- <TextView -->
+			<!-- android:id="@+id/username" -->
+			<!-- android:layout_width="0dip" -->
+			<!-- android:layout_height="wrap_content" -->
+			<!-- android:layout_weight="2" -->
+			<!-- android:text="类型2" /> -->
+			<!-- </LinearLayout> -->
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/qiwangguozuo"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/qiwanggongzuo"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/qiwanggongzuo1"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/qiwanggongzuo2"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+			<!--
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/username"
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:text="期望2" />
+			</LinearLayout>
+			-->
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:text="@string/qiwanggongzuodidian"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/qiwanggongzuodidian"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/qiwanggongzuodidian1"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/qiwanggongzuodidian2"
+					android:layout_width="0dip"
+					android:layout_height="30dip"
+					android:layout_weight="2"
+					android:background="@drawable/orangeeditselector"
+					android:gravity="center"
+					android:text="@string/select" />
+			</LinearLayout>
+			<!--
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/changpassmar"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.2"
+					android:padding="@dimen/textblankpadding"
+					android:textSize="@dimen/searchwords" />
+
+				<TextView
+					android:id="@+id/username"
+					android:layout_width="0dip"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:text="地点2" />
+			</LinearLayout>
+			-->
+
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout
+		android:id="@+id/coverLay"
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:paddingLeft="@dimen/textblankpadding_large"
+		android:paddingRight="@dimen/textblankpadding_large"
+		android:layout_marginTop="@dimen/changpassmar"
+		android:orientation="vertical"
+		android:visibility="gone" >
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/textblankpadding"
+			android:text="@string/qiuzhixin"
+			android:textSize="@dimen/searchwords" />
+
+		<EditText
+			android:id="@+id/qiuzhixin"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/orangeeditselector"			
+			android:minHeight="200dip"
+			android:padding="@dimen/textblankpadding_3"
+			android:gravity="top|left"
+			 />
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/confirmbutton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:layout_marginTop="@dimen/textblankpadding_20"
+		android:onClick="changeOnclick"
+		android:text="@string/nextstep" />
+
+</LinearLayout>

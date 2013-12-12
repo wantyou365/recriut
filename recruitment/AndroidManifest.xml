@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gazecloud.dyteam"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+       >
+        
+        <activity
+            android:name="com.janan.recruit.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:name="com.janan.recruit.MainTabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.CompanyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.PersonalAcitivty"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.subscribeactivity.JobSubscribeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.searchactivity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.resume.workdynactivity.WorkDynamicsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.searchactivity.JobInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.searchactivity.SearchCheckInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.CompanyInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.JobsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.searchactivity.SearchResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.resume.workdynactivity.WorkDynamicsInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.ChangPassWordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.CompanyEmailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.SeeMyResumeCompanyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.util.activity.ProvinceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.util.activity.CityActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.util.activity.DistrictActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.JobsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.ResumeChangeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.SendResumeOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.SendResumeOutRecordsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.CompanyInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.subscribeactivity.SubScribeSearch"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.util.activity.JobDeptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.util.activity.JobNameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.JobsCollectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.personalactivity.ResumePreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.SendJobsInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.RecieveResumeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.SearchResumeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.companyactivity.SearchResumeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.janan.recruit.DiaLogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogActivity" />
+        <activity
+            android:name="com.janan.recruit.JobFairsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.janan.recruit.searchactivity.ShiXiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.janan.recruit.JobFairsInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="textblankpadding">5dip</dimen>
+    <dimen name="textblankpadding_large">10dip</dimen>
+    <dimen name="nosubscribetitle">15sp</dimen>
+    <dimen name="subscribejobnamesize">14sp</dimen>
+    <dimen name="nosubscribecontent">13sp</dimen>
+    <dimen name="zhiweixiangqing_jobname">18sp</dimen>
+    <dimen name="zhiweixiangqing_zhiweimiaoshuinfo">14sp</dimen>
+    <dimen name="titletext">22sp</dimen>
+    <dimen name="noemail">17sp</dimen>
+    <dimen name="searchwords">18sp</dimen>
+    <dimen name="changpassmar">20dip</dimen>
+    <dimen name="textblankpadding_20">20dip</dimen>
+    <dimen name="textblankpadding_3">3dip</dimen>
+    <dimen name="textsize11">11sp</dimen>
+</resources>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_positionsubscribeactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/noscribelay"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		
+		 >
+		 <TextView 
+		 	android:id="@+id/nosubscribetitle"
+		 	android:layout_width="wrap_content"
+		 	android:layout_height="wrap_content"
+		 	android:textSize="@dimen/nosubscribetitle"
+		 	android:text="@string/nosubscribetitle"
+		 	android:padding="@dimen/textblankpadding"
+		 	/>
+		  <TextView 
+		 	android:id="@+id/nosubscribecontent"
+		 	android:layout_width="wrap_content"
+		 	android:layout_height="wrap_content"
+		 	android:textSize="@dimen/nosubscribecontent"
+		 	android:text="@string/nosubscribecontent"
+		 	android:padding="@dimen/textblankpadding"
+		 	/>
+		 
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/listview_positionsubscribeactivity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		 >
+	</ListView>
+
+</LinearLayout>

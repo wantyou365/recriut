@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rootlay_recieveresumeactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<ListView
+		android:id="@+id/resumeslist"
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:listSelector="@drawable/addressselector"
+		 >
+	</ListView>
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:layout_marginTop="@dimen/textblankpadding_20"
+		android:onClick="sendNotify"
+		android:text="发布面试通知"
+		android:visibility="gone"
+		 />
+</LinearLayout>

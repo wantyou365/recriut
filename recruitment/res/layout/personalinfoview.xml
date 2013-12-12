@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/home_search_title" />
+
+	<LinearLayout
+		android:id="@+id/nearsearchLay"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/searchkeysback"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			
+			android:drawableRight="@drawable/home_arrow_right"
+			android:gravity="center_vertical"
+			android:paddingBottom="10dip"
+			android:paddingTop="10dip"
+			android:text="上海市"
+			android:textSize="16dip" />
+		
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			
+			android:drawableRight="@drawable/home_arrow_right"
+			android:gravity="center_vertical"
+			android:paddingBottom="10dip"
+			android:paddingTop="10dip"
+			android:text="上海市+近三天+两年以上"
+			android:textSize="16dip" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/poistionsubscribeitemlay"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:orientation="vertical"
+	android:padding="@dimen/textblankpadding_large"
+	>
+	<TextView 
+		android:id="@+id/jobname"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:textSize="@dimen/zhiweixiangqing_jobname"
+		android:textColor="@color/lightblue"
+		/>
+	<TextView 
+		android:id="@+id/shortinfo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:textSize="@dimen/zhiweixiangqing_zhiweimiaoshuinfo"
+		/>
+	
+</LinearLayout>

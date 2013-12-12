@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/firstresumeroot"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="@dimen/textblankpadding_20" >
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/name" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/xingming" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<EditText -->
+<!-- 			android:id="@+id/nameedit" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+<!-- 			android:padding="@dimen/textblankpadding" -->
+<!-- 			android:background="@drawable/orangeeditselector" /> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_large" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/sex" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/xingbie" -->
+<!-- 			android:layout_gravity="center_vertical" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<RadioGroup -->
+<!-- 			android:id="@+id/ataawGroup" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+<!-- 			android:orientation="horizontal" -->
+<!-- 			 > -->
+
+<!-- 			<RadioButton -->
+<!-- 				android:id="@+id/radioButton1" -->
+<!-- 				android:layout_width="0dp" -->
+<!-- 				android:layout_height="wrap_content" -->
+<!-- 				android:layout_weight="1" -->
+<!-- 				android:text="男" /> -->
+
+<!-- 			<RadioButton -->
+<!-- 				android:id="@+id/radioButton2" -->
+<!-- 				android:layout_width="0dp" -->
+<!-- 				android:layout_height="wrap_content" -->
+<!-- 				android:layout_weight="1" -->
+<!-- 				android:text="女" /> -->
+<!-- 		</RadioGroup> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_large" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/shoujihaoma" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<EditText -->
+<!-- 			android:id="@+id/phoneedit" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+<!-- 			android:padding="@dimen/textblankpadding" -->
+<!-- 			android:background="@drawable/orangeeditselector" /> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_large" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/chushengriqi" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/birthdayedit" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+<!-- 			android:textSize="@dimen/nosubscribetitle" -->
+<!-- 			android:padding="@dimen/textblankpadding" -->
+<!-- 			 /> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_large" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/xianzaizhudi" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/residenceedit" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+			
+<!-- 			android:padding="@dimen/textblankpadding" -->
+<!-- 			android:background="@drawable/register_select_bg" /> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_large" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/yixiangdidian" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/intentionplaceedit" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+<!-- 			android:padding="@dimen/textblankpadding" -->
+<!-- 			android:background="@drawable/register_select_bg" /> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<LinearLayout -->
+<!-- 		android:layout_width="match_parent" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_large" -->
+<!-- 		android:orientation="horizontal" > -->
+
+<!-- 		<TextView -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="1" -->
+<!-- 			android:text="@string/yixiangzhiwei" -->
+<!-- 			android:textSize="@dimen/zhiweixiangqing_jobname" /> -->
+
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/intentionjobedit" -->
+<!-- 			android:layout_width="0dip" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:layout_weight="2" -->
+<!-- 			android:padding="@dimen/textblankpadding" -->
+<!-- 			android:background="@drawable/register_select_bg" /> -->
+<!-- 	</LinearLayout> -->
+
+<!-- 	<Button -->
+<!-- 		android:id="@+id/save" -->
+<!-- 		android:layout_width="wrap_content" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_gravity="center_horizontal" -->
+<!-- 		android:layout_marginTop="@dimen/textblankpadding_20" -->
+<!-- 		android:background="@drawable/register_save_next_btn" /> -->
+
+</LinearLayout>

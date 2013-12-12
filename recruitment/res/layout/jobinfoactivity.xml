@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_poistionactivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/jobnametext"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="left|center_vertical"
+				android:padding="@dimen/textblankpadding"
+				android:background="@drawable/img_jobtopbghui"
+				android:textColor="@color/orangecolor"
+				android:textSize="@dimen/zhiweixiangqing_jobname" />
+
+<!-- 			<TextView -->
+<!-- 				android:id="@+id/companynametext" -->
+<!-- 				android:layout_width="match_parent" -->
+<!-- 				android:layout_height="wrap_content" -->
+<!-- 				android:background="@drawable/img_jobtopbghui" -->
+<!-- 				android:drawableRight="@drawable/home_arrow_right" -->
+<!-- 				android:gravity="left|center_vertical" -->
+<!-- 				android:padding="@dimen/textblankpadding" -->
+<!-- 				android:textSize="@dimen/zhiweixiangqing_jobname" -->
+				
+<!-- 				 /> -->
+
+			<LinearLayout
+				android:id="@+id/jobinfolay"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			</LinearLayout>
+			<TextView
+				android:id="@+id/jobdescribetitle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/img_jobtopbghui"
+				android:gravity="bottom|left"
+				android:text="@string/zhiweimiaoshu"
+				android:textSize="@dimen/zhiweixiangqing_jobname" 
+				android:padding="@dimen/textblankpadding"
+				/>
+
+			<TextView
+				android:id="@+id/jobdescribe"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="50dip"
+				android:padding="@dimen/textblankpadding"
+				android:textSize="@dimen/zhiweixiangqing_zhiweimiaoshuinfo" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/img_jobtopbghui"
+				android:gravity="center_vertical|left"
+				android:padding="@dimen/textblankpadding"
+				android:text="@string/lianxiwomen"
+				android:textSize="@dimen/zhiweixiangqing_jobname" />
+
+			<TextView
+				android:id="@+id/contactinfo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/zhiweixiangqing_zhiweimiaoshuinfo" 
+				android:padding="@dimen/textblankpadding"
+				/>
+
+			<TextView
+				android:id="@+id/morejob"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/img_jobtopbghui"
+				android:drawableRight="@drawable/home_arrow_right"
+				android:gravity="left|center_vertical"
+				android:padding="@dimen/textblankpadding"
+				android:text="@string/qitazhiwei"
+				android:textSize="@dimen/zhiweixiangqing_jobname" />
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/footbarback"
+		android:orientation="horizontal" >
+
+		<TextView
+		    android:id="@+id/jobapply"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:drawableTop="@drawable/btn_job_sq"
+			android:gravity="center_horizontal|bottom"
+			android:text="@string/apply"
+			android:textColor="@color/whitecolor" />
+
+		<TextView
+		    android:id="@+id/jobconllection"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:drawableTop="@drawable/btn_job_sc"
+			android:gravity="center_horizontal|bottom"
+			android:text="@string/conllect"
+			android:textColor="@color/whitecolor" />
+
+		<TextView
+		    android:id="@+id/jobshare"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:drawableTop="@drawable/btn_job_fx"
+			android:gravity="center_horizontal|bottom"
+			android:text="@string/share"
+			android:textColor="@color/whitecolor" />
+	</LinearLayout>
+
+</LinearLayout>

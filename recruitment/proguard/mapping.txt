@@ -1,0 +1,2334 @@
+com.janan.adapter.ApplyRecordsAdapter -> com.janan.a.a:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.CityAdapter -> com.janan.a.b:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    boolean hasArea -> c
+    android.os.Bundle mBundle -> d
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.DistrictAdapter -> com.janan.a.c:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    android.os.Bundle mBundle -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.JobDeptAdapter -> com.janan.a.d:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    android.os.Bundle mBundle -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.JobFairsTitleAdapter -> com.janan.a.e:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+com.janan.adapter.JobNameAdapter -> com.janan.a.f:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    android.os.Bundle mBundle -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.JobsAdapter -> com.janan.a.g:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.NewsTitleAdapter -> com.janan.a.h:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+com.janan.adapter.OutResumeRecordAdapter -> com.janan.a.i:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    boolean isEnabled(int) -> isEnabled
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.PositionSubscribeAdapter -> com.janan.a.j:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    boolean canDelete -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.ProvinceAdapter -> com.janan.a.k:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    boolean hasCity -> c
+    android.os.Bundle mBundle -> d
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setmList(java.util.ArrayList) -> a
+com.janan.adapter.RecieveResumesAdapter -> com.janan.a.l:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    boolean canChecked -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+com.janan.adapter.ResumeListAdapter -> com.janan.a.m:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+com.janan.adapter.SearchCheckInfoAdapter -> com.janan.a.n:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    void setmList(java.util.ArrayList) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.janan.adapter.SeeMyResumeAdapter -> com.janan.a.o:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+com.janan.adapter.ShixiAdapter -> com.janan.a.p:
+    java.util.ArrayList mList -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.util.ArrayList getmList() -> a
+com.janan.data.bean.BaseBean -> com.janan.b.a.a:
+    java.lang.String getTagKey(int,com.janan.recruit.BaseActivity) -> a
+    void updateUI(android.os.Bundle) -> a
+    java.lang.String getDefoultValue(int,com.janan.recruit.BaseActivity) -> b
+com.janan.data.bean.JobFairs -> com.janan.b.a.b:
+    java.lang.String mId -> a
+    java.lang.String mTitle -> b
+    java.lang.String mContent -> c
+    java.lang.String mTypeName -> d
+    java.lang.String mDateString -> e
+    java.lang.String mCity -> f
+    java.lang.String mCopyFrom -> g
+    java.lang.String mHitString -> h
+    java.lang.String getmCopyFrom() -> a
+    void setmCopyFrom(java.lang.String) -> a
+    void setmId(java.lang.String) -> b
+    java.lang.String getmTitle() -> b
+    void setmTitle(java.lang.String) -> c
+    java.lang.String getmContent() -> c
+    void setmContent(java.lang.String) -> d
+    java.lang.String getmTypeName() -> d
+    void setmTypeName(java.lang.String) -> e
+    void setmDateString(java.lang.String) -> f
+    void setmCity(java.lang.String) -> g
+    java.lang.String getmHitString() -> e
+    void setmHitString(java.lang.String) -> h
+    android.view.View getTitleView(android.app.Activity) -> a
+com.janan.data.bean.JobInfo -> com.janan.b.a.c:
+    java.lang.String mJobId -> b
+    java.lang.String mComId -> c
+    java.lang.String mGongsimingchen -> d
+    java.lang.String mGongzuoleixingString -> e
+    java.lang.String mZhaopinleibieString -> f
+    java.lang.String mEndYear -> g
+    java.lang.String mEndMonth -> h
+    java.lang.String mEndDay -> i
+    java.lang.String mXinzidaiyu -> j
+    java.lang.String mZhaopinmumenString -> k
+    java.lang.String mZhiweimingcheng -> l
+    java.lang.String mZhaopinrenshu -> m
+    java.lang.String mJiezhiriqi -> n
+    java.lang.String mProvinceString -> o
+    java.lang.String mCityString -> p
+    java.lang.String mAreaString -> q
+    java.lang.String mSuozaiCityString -> r
+    java.lang.String mSuozaiAreaString -> s
+    java.lang.String mZhiweimiaoshu -> t
+    java.lang.String mXueliyaoqiu -> u
+    java.lang.String mXingbie -> v
+    java.lang.String mGongzuonianxianString -> w
+    java.lang.String mFaburiqi -> x
+    java.lang.String mViewClicks -> y
+    java.lang.String mMin_Age -> z
+    java.lang.String mMax_Age -> A
+    java.lang.String mContactPerson -> B
+    java.lang.String mContactPhone -> C
+    java.lang.String mCompanyFax -> D
+    java.lang.String mEmail -> E
+    java.lang.String mAddress -> F
+    java.lang.String mJobUrlString -> G
+    java.lang.String workTimeString -> H
+    java.lang.String jobRequire -> I
+    java.lang.String mChizhuqingkuangString -> a
+    java.util.ArrayList doubleList -> J
+    boolean isLong -> K
+    boolean isSubscribe -> L
+    void setmEndYear(java.lang.String) -> a
+    void setmEndMonth(java.lang.String) -> b
+    void setmEndDay(java.lang.String) -> c
+    java.lang.String getmZhaopinleibieString() -> a
+    void setmZhaopinleibieString(java.lang.String) -> d
+    java.lang.String getmJobUrlString() -> b
+    void setmJobUrlString(java.lang.String) -> e
+    java.lang.String getJobRequire() -> c
+    void setJobRequire(java.lang.String) -> f
+    java.lang.String getWorkTimeString() -> d
+    void setmSuozaiCityString(java.lang.String) -> g
+    void setmSuozaiAreaString(java.lang.String) -> h
+    void setWorkTimeString(java.lang.String) -> i
+    java.lang.String getmChizhuqingkuangString() -> e
+    void setmChizhuqingkuangString(java.lang.String) -> j
+    java.lang.String getmJobId() -> f
+    void setmJobId(java.lang.String) -> k
+    java.lang.String getmComId() -> g
+    void setmComId(java.lang.String) -> l
+    java.lang.String getmGongsimingchen() -> h
+    void setmGongsimingchen(java.lang.String) -> m
+    java.lang.String getmGongzuoleixingString() -> i
+    void setmGongzuoleixingString(java.lang.String) -> n
+    java.lang.String getmXinzidaiyu() -> j
+    void setmXinzidaiyu(java.lang.String) -> o
+    java.lang.String getmZhaopinmumenString() -> k
+    void setmZhaopinmumenString(java.lang.String) -> p
+    java.lang.String getmZhiweimingcheng() -> l
+    void setmZhiweimingcheng(java.lang.String) -> q
+    java.lang.String getmZhaopinrenshu() -> m
+    void setmZhaopinrenshu(java.lang.String) -> r
+    java.lang.String getmJiezhiriqi() -> n
+    void setmJiezhiriqi(java.lang.String) -> s
+    java.lang.String getmGongzuodidian() -> v
+    java.lang.String getmCityString() -> o
+    void setmCityString(java.lang.String) -> t
+    java.lang.String getmAreaString() -> p
+    void setmAreaString(java.lang.String) -> u
+    java.lang.String getmZhiweimiaoshu() -> q
+    void setmZhiweimiaoshu(java.lang.String) -> v
+    void setmXueliyaoqiu(java.lang.String) -> w
+    void setmXingbie(java.lang.String) -> x
+    java.lang.String getmGongzuonianxianString() -> r
+    void setmGongzuonianxianString(java.lang.String) -> y
+    java.lang.String getmFaburiqi() -> s
+    void setmFaburiqi(java.lang.String) -> z
+    java.lang.String getmViewClicks() -> t
+    void setmViewClicks(java.lang.String) -> A
+    void setmMin_Age(java.lang.String) -> B
+    void setmMax_Age(java.lang.String) -> C
+    void setmContactPerson(java.lang.String) -> D
+    void setmContactPhone(java.lang.String) -> E
+    void setmCompanyFax(java.lang.String) -> F
+    void setmEmail(java.lang.String) -> G
+    void setmAddress(java.lang.String) -> H
+    java.lang.String getmProvinceString() -> u
+    void setmProvinceString(java.lang.String) -> I
+    java.lang.String getmLianxifangshi(com.janan.recruit.BaseActivity) -> a
+    void createLongView(android.widget.LinearLayout,com.janan.recruit.BaseActivity) -> a
+    android.widget.LinearLayout getSubscribeItemView(com.janan.recruit.BaseActivity) -> b
+    android.widget.LinearLayout getCollectionItemViewWithDelete(com.janan.recruit.BaseActivity,com.janan.adapter.PositionSubscribeAdapter) -> a
+    android.widget.LinearLayout getJobsItemView(com.janan.recruit.BaseActivity) -> c
+com.janan.data.bean.JobInfo$1 -> com.janan.b.a.d:
+    com.janan.data.bean.JobInfo this$0 -> a
+    com.janan.recruit.BaseActivity val$_Activity -> b
+    com.janan.adapter.PositionSubscribeAdapter val$_Adapter -> c
+    void onClick(android.view.View) -> onClick
+com.janan.data.bean.News -> com.janan.b.a.e:
+    java.lang.String mId -> a
+    java.lang.String mTitle -> b
+    java.lang.String mSmallTitle -> c
+    java.lang.String mContent -> d
+    java.lang.String mUsername -> e
+    java.lang.String fName -> f
+    java.lang.String mLastView -> g
+    java.lang.String mCopyFrom -> h
+    java.lang.String mKeyWords -> i
+    java.lang.String mHitString -> j
+    java.lang.String getmId() -> a
+    void setmId(java.lang.String) -> a
+    java.lang.String getmTitle() -> b
+    void setmTitle(java.lang.String) -> b
+    void setmSmallTitle(java.lang.String) -> c
+    java.lang.String getmContent() -> c
+    void setmContent(java.lang.String) -> d
+    java.lang.String getmUsername() -> d
+    void setmUsername(java.lang.String) -> e
+    java.lang.String getmCopyFrom() -> e
+    void setmCopyFrom(java.lang.String) -> f
+    void setmKeyWords(java.lang.String) -> g
+    java.lang.String getfName() -> f
+    void setfName(java.lang.String) -> h
+    void setmLastView(java.lang.String) -> i
+    java.lang.String getmHitString() -> g
+    void setmHitString(java.lang.String) -> j
+com.janan.data.bean.OutResumeRecord -> com.janan.b.a.f:
+    java.lang.String mId -> a
+    java.lang.String mJianliId -> b
+    java.lang.String mZhiweimc -> c
+    java.lang.String mQiyemc -> d
+    java.lang.String mQiyeyx -> e
+    java.lang.String mPotime -> f
+    void setmId(java.lang.String) -> a
+    void setmJianliId(java.lang.String) -> b
+    java.lang.String getmZhiweimc() -> a
+    void setmZhiweimc(java.lang.String) -> c
+    java.lang.String getmQiyemc() -> b
+    void setmQiyemc(java.lang.String) -> d
+    java.lang.String getmQiyeyx() -> c
+    void setmQiyeyx(java.lang.String) -> e
+    java.lang.String getmPotime() -> d
+    void setmPotime(java.lang.String) -> f
+com.janan.data.bean.ShiXi -> com.janan.b.a.g:
+    java.lang.String title -> a
+    java.lang.String content -> b
+    java.lang.String clickcount -> c
+    java.lang.String poster -> d
+    java.lang.String getTitle() -> a
+    void setTitle(java.lang.String) -> a
+    java.lang.String getContent() -> b
+    void setContent(java.lang.String) -> b
+    java.lang.String getClickcount() -> c
+    void setClickcount(java.lang.String) -> c
+    java.lang.String getPoster() -> d
+    void setPoster(java.lang.String) -> d
+    android.view.View getTitleView(android.app.Activity) -> a
+com.janan.data.bean.TabData -> com.janan.b.a.h:
+    java.lang.Class mClass -> a
+    java.lang.String mTagId -> b
+    java.lang.String mStringId -> c
+    android.app.Activity mActivity -> d
+    android.view.View getDislayView() -> a
+    java.lang.Class getmClass() -> b
+    java.lang.String getmTagId() -> c
+com.janan.data.bean.company.CompanyInfo -> com.janan.b.a.a.a:
+    java.lang.String mCompanyId -> a
+    java.lang.String mCompanyName -> b
+    java.lang.String mContactInfo -> c
+    java.lang.String mUserName -> d
+    java.lang.String mPassWord -> e
+    java.lang.String mEmail -> f
+    java.lang.String mProvice -> g
+    java.lang.String mCity -> h
+    java.lang.String mArea -> i
+    java.lang.String mPhone -> j
+    java.lang.String mAddress -> k
+    java.lang.String mJobsCount -> l
+    java.lang.String mMoMoContent -> m
+    java.lang.String mIndustry -> n
+    java.lang.String mProperity -> o
+    java.lang.String mXingJiString -> p
+    java.lang.String getmPassWord() -> a
+    void setmPassWord(java.lang.String) -> a
+    java.lang.String getmCompanyId() -> b
+    void setmCompanyId(java.lang.String) -> b
+    java.lang.String getmCompanyName() -> c
+    void setmCompanyName(java.lang.String) -> c
+    java.lang.String getmContactInfo() -> d
+    void setmContactInfo(java.lang.String) -> d
+    java.lang.String getmEmail() -> e
+    void setmEmail(java.lang.String) -> e
+    java.lang.String getmProvice() -> f
+    void setmProvice(java.lang.String) -> f
+    java.lang.String getmCity() -> g
+    void setmCity(java.lang.String) -> g
+    java.lang.String getmPhone() -> h
+    void setmPhone(java.lang.String) -> h
+    java.lang.String getmAddress() -> i
+    void setmAddress(java.lang.String) -> i
+    java.lang.String getmJobsCount() -> j
+    void setmJobsCount(java.lang.String) -> j
+    java.lang.String getmUserName() -> k
+    void setmUserName(java.lang.String) -> k
+    java.lang.String getmArea() -> l
+    void setmArea(java.lang.String) -> l
+    java.lang.String getmMoMoContent() -> m
+    void setmMoMoContent(java.lang.String) -> m
+    java.lang.String getmIndustry() -> n
+    void setmIndustry(java.lang.String) -> n
+    java.lang.String getmProperity() -> o
+    void setmProperity(java.lang.String) -> o
+    java.lang.String getmXingJiString() -> p
+    void setmXingJiString(java.lang.String) -> p
+com.janan.data.bean.personal.CoverLetter -> com.janan.b.a.b.a:
+    java.lang.String mTitleString -> a
+    java.lang.String mContentString -> b
+    java.lang.String mUerId -> c
+    java.lang.String JobId -> d
+    java.lang.String mDate -> e
+    java.lang.String mJobName -> f
+    void setmTitleString(java.lang.String) -> a
+    void setmContentString(java.lang.String) -> b
+    void setmUerId(java.lang.String) -> c
+    java.lang.String getJobId() -> a
+    void setJobId(java.lang.String) -> d
+    void setmDate(java.lang.String) -> e
+    void setmJobName(java.lang.String) -> f
+    android.view.View getItemView(com.janan.recruit.BaseActivity) -> a
+com.janan.data.bean.personal.CoverLetter$1 -> com.janan.b.a.b.b:
+    com.janan.data.bean.personal.CoverLetter this$0 -> a
+    com.janan.recruit.BaseActivity val$activity -> b
+    void onClick(android.view.View) -> onClick
+com.janan.data.bean.personal.Resume -> com.janan.b.a.b.c:
+    java.lang.String mUserId -> a
+    java.lang.String mUsername -> b
+    java.lang.String mEmailString -> c
+    java.lang.String mNameString -> d
+    java.lang.String mSexString -> e
+    java.lang.String mMinZuString -> f
+    java.lang.String mAgeString -> g
+    java.lang.String mEducationString -> h
+    java.lang.String mLastSchoolString -> i
+    java.lang.String mZhuanYeString -> j
+    java.lang.String mZhuanyeClass -> k
+    java.lang.String mBiyeYear -> l
+    java.lang.String mJobContentString -> m
+    java.lang.String mHukousuozaidi -> n
+    java.lang.String mPhoneNum -> o
+    java.lang.String mBirthday -> p
+    java.lang.String mBirth_Year -> q
+    java.lang.String mBirth_Month -> r
+    java.lang.String mBirth_Day -> s
+    java.lang.String mResidence -> t
+    java.lang.String mResidence_City -> u
+    java.lang.String mResidence_Area -> v
+    java.lang.String mIntentionPlaceString -> w
+    java.lang.String mIntentionPlaceString1 -> x
+    java.lang.String mIntentionPlaceString2 -> y
+    java.lang.String mDoor_City -> z
+    java.lang.String mDoor_AreaString -> A
+    java.lang.String mMsnOrQQ -> B
+    java.lang.String mIntentionJobClass -> C
+    java.lang.String mIntentionJob -> D
+    java.lang.String mIntentionJob1 -> E
+    java.lang.String mIntentionJob2 -> F
+    java.lang.String mWorkingYears -> G
+    java.lang.String mQiwangyuexin -> H
+    java.lang.String mJianjie -> I
+    java.lang.String mYihun -> J
+    java.lang.String mTitle -> K
+    java.lang.String mComid -> L
+    java.lang.String mJobid -> M
+    java.lang.String mAddDate -> N
+    java.lang.String mMemo -> O
+    java.lang.String mJobName -> P
+    boolean isSelected -> Q
+    void setmUsername(java.lang.String) -> a
+    void setmEmailString(java.lang.String) -> b
+    java.lang.String getmJobContentString() -> a
+    void setmJobContentString(java.lang.String) -> c
+    java.lang.String getmBiyeYear() -> b
+    void setmBiyeYear(java.lang.String) -> d
+    java.lang.String getmMsnOrQQ() -> c
+    void setmMsnOrQQ(java.lang.String) -> e
+    java.lang.String getmDoor_City() -> d
+    void setmDoor_City(java.lang.String) -> f
+    java.lang.String getmDoor_AreaString() -> e
+    void setmDoor_AreaString(java.lang.String) -> g
+    java.lang.String getmIntentionPlaceString1() -> f
+    void setmIntentionPlaceString1(java.lang.String) -> h
+    java.lang.String getmIntentionPlaceString2() -> g
+    void setmIntentionPlaceString2(java.lang.String) -> i
+    java.lang.String getmIntentionJob1() -> h
+    void setmIntentionJob1(java.lang.String) -> j
+    java.lang.String getmIntentionJob2() -> i
+    void setmIntentionJob2(java.lang.String) -> k
+    void setmTitle(java.lang.String) -> l
+    void setmComid(java.lang.String) -> m
+    java.lang.String getmJobid() -> j
+    void setmJobid(java.lang.String) -> n
+    void setmAddDate(java.lang.String) -> o
+    void setmJobName(java.lang.String) -> p
+    void setmYihun$552c4e01() -> k
+    java.lang.String getmNameString() -> l
+    void setmNameString(java.lang.String) -> q
+    java.lang.String getmSexString() -> m
+    void setmSexString(java.lang.String) -> r
+    java.lang.String getmPhoneNum() -> n
+    void setmPhoneNum(java.lang.String) -> s
+    java.lang.String getmBirthday() -> o
+    void setmBirthday(java.lang.String) -> t
+    java.lang.String getmResidence() -> p
+    java.lang.String getmIntentionPlaceString() -> q
+    void setmIntentionPlaceString(java.lang.String) -> u
+    java.lang.String getmIntentionJob() -> r
+    void setmIntentionJob(java.lang.String) -> v
+    java.lang.String getmEducationString() -> s
+    java.lang.String getmQiwangyuexin() -> t
+    void setmQiwangyuexin(java.lang.String) -> w
+    java.lang.String getmUserId() -> u
+    void setmUserId(java.lang.String) -> x
+    java.lang.String getmMinZuString() -> v
+    void setmMinZuString(java.lang.String) -> y
+    void setmAgeString(java.lang.String) -> z
+    java.lang.String getmLastSchoolString() -> w
+    void setmLastSchoolString(java.lang.String) -> A
+    java.lang.String getmZhuanYeString() -> x
+    void setmZhuanYeString(java.lang.String) -> B
+    java.lang.String getmHukousuozaidi() -> y
+    java.lang.String getmWorkingYears() -> z
+    void setmWorkingYears(java.lang.String) -> C
+    java.lang.String getmIntentionJobClass() -> A
+    void setmIntentionJobClass(java.lang.String) -> D
+    java.lang.String getmJianjie() -> B
+    void setmJianjie(java.lang.String) -> E
+    boolean isSelected() -> C
+    void setSelected(boolean) -> a
+    java.lang.String getmBirth_Year() -> D
+    void setmBirth_Year(java.lang.String) -> F
+    java.lang.String getmBirth_Month() -> E
+    void setmBirth_Month(java.lang.String) -> G
+    java.lang.String getmBirth_Day() -> F
+    void setmBirth_Day(java.lang.String) -> H
+    java.lang.String getmResidence_City() -> G
+    void setmResidence_City(java.lang.String) -> I
+    java.lang.String getmResidence_Area() -> H
+    void setmResidence_Area(java.lang.String) -> J
+    android.view.View getRecieveResumeView(com.janan.recruit.BaseActivity,boolean,android.view.View) -> a
+    android.view.View getSearchResumeView(com.janan.recruit.BaseActivity,android.view.View) -> a
+    java.lang.String getmZhuanyeClass() -> I
+    void setmZhuanyeClass(java.lang.String) -> K
+com.janan.data.bean.personal.Resume$1 -> com.janan.b.a.b.d:
+    com.janan.data.bean.personal.Resume this$0 -> a
+    com.janan.recruit.BaseActivity val$activity -> b
+    void onClick(android.view.View) -> onClick
+com.janan.data.bean.personal.Resume$2 -> com.janan.b.a.b.e:
+    com.janan.data.bean.personal.Resume this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.janan.data.bean.personal.User -> com.janan.b.a.b.f:
+    java.lang.String mUserID -> a
+    java.lang.String mUserName -> b
+    java.lang.String mPassWord -> c
+    java.lang.String mComId -> d
+    java.lang.String mUserEmail -> e
+    java.lang.String mUserType -> f
+    void setmComId(java.lang.String) -> a
+    android.widget.LinearLayout getPersonalActivityItemView$203bc316(java.lang.String,int,com.janan.recruit.BaseActivity) -> a
+    java.lang.String getmUserID() -> a
+    void setmUserID(java.lang.String) -> b
+    java.lang.String getmUserName() -> b
+    void setmUserName(java.lang.String) -> c
+    java.lang.String getmPassWord() -> c
+    void setmPassWord(java.lang.String) -> d
+    java.lang.String getmUserEmail() -> d
+    void setmUserEmail(java.lang.String) -> e
+    java.lang.String getmUserType() -> e
+    void setmUserType(java.lang.String) -> f
+    void access$0(com.janan.data.bean.personal.User,int,com.janan.recruit.BaseActivity) -> a
+com.janan.data.bean.personal.User$1 -> com.janan.b.a.b.g:
+    com.janan.data.bean.personal.User this$0 -> a
+    int val$tag -> b
+    com.janan.recruit.BaseActivity val$_Activity -> c
+    void onClick(android.view.View) -> onClick
+com.janan.data.bean.search.NearSearch -> com.janan.b.a.c.a:
+    java.lang.String mInentJob -> a
+    java.lang.String mIntentPlace -> b
+    java.lang.String mIntentPlace_Province -> c
+    java.lang.String mIntentPlace_City -> d
+    java.lang.String mIntentPlace_Area -> e
+    java.lang.String mWorkingYears -> f
+    java.lang.String mPostDate -> g
+    java.lang.String mKeyWord -> h
+    java.lang.String mSex -> i
+    java.lang.String mAge -> j
+    java.lang.String mDutyTime -> k
+    java.lang.String mEducation -> l
+    java.lang.String mStarLevel -> m
+    java.lang.String mSalary -> n
+    java.lang.String mBusiness -> o
+    java.lang.String mDealString -> p
+    java.lang.String mCzqk -> q
+    java.lang.String mJipin -> r
+    java.lang.String mIndustry -> s
+    java.lang.String mJobType -> t
+    java.lang.String mComid -> u
+    java.lang.String getmBusiness() -> a
+    void setmBusiness(java.lang.String) -> a
+    java.lang.String getmInentJob() -> b
+    void setmInentJob(java.lang.String) -> b
+    java.lang.String getmIntentPlace() -> c
+    void setmIntentPlace(java.lang.String) -> c
+    java.lang.String getmPostDate() -> d
+    void setmPostDate(java.lang.String) -> d
+    java.lang.String getmKeyWord() -> e
+    void setmKeyWord(java.lang.String) -> e
+    java.lang.String getmSex() -> f
+    void setmSex(java.lang.String) -> f
+    java.lang.String getmAge() -> g
+    void setmAge(java.lang.String) -> g
+    void setmDutyTime$552c4e01() -> h
+    java.lang.String getmEducation() -> i
+    void setmEducation(java.lang.String) -> h
+    java.lang.String getmStarLevel() -> j
+    void setmStarLevel(java.lang.String) -> i
+    java.lang.String getmSalary() -> k
+    void setmSalary(java.lang.String) -> j
+    java.lang.String getmWorkingYears() -> l
+    void setmWorkingYears(java.lang.String) -> k
+    java.lang.String getmComid() -> m
+    void setmComid(java.lang.String) -> l
+    java.lang.String getmDealString() -> n
+    void setmDealString(java.lang.String) -> m
+    java.lang.String getmCzqk() -> o
+    void setmCzqk(java.lang.String) -> n
+    java.lang.String getmJipin() -> p
+    void setmJipin(java.lang.String) -> o
+    java.lang.String getmIndustry() -> q
+    void setmIndustry(java.lang.String) -> p
+    java.lang.String getmJobType() -> r
+com.janan.data.bean.search.SearchCondition -> com.janan.b.a.c.b:
+    java.lang.String mKey -> c
+    java.lang.String mValue -> d
+    android.widget.TextView mValueTextView -> e
+    int mTag -> f
+    boolean isText -> g
+    android.widget.LinearLayout mTextLayout -> a
+    android.widget.LinearLayout mEditLayout -> b
+    java.lang.String getmKey() -> a
+    java.lang.String getmValue() -> b
+    void setmValue(java.lang.String) -> a
+    android.widget.LinearLayout getSearchItemView(com.janan.recruit.BaseActivity) -> a
+    void updateUI(android.os.Bundle) -> a
+    java.lang.String access$0(com.janan.data.bean.search.SearchCondition) -> a
+    int access$1(com.janan.data.bean.search.SearchCondition) -> b
+    void access$2(com.janan.data.bean.search.SearchCondition,java.lang.String) -> a
+com.janan.data.bean.search.SearchCondition$1 -> com.janan.b.a.c.c:
+    com.janan.data.bean.search.SearchCondition this$0 -> a
+    com.janan.recruit.BaseActivity val$_Activity -> b
+    void onClick(android.view.View) -> onClick
+com.janan.data.bean.search.SearchCondition$2 -> com.janan.b.a.c.d:
+    com.janan.data.bean.search.SearchCondition this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.janan.data.data.City -> com.janan.b.b.a:
+    java.lang.String mId -> a
+    java.lang.String mName -> b
+    boolean hasMore -> c
+    java.lang.String getmId() -> a
+    void setmId(java.lang.String) -> a
+    java.lang.String getmName() -> b
+    void setmName(java.lang.String) -> b
+    android.widget.LinearLayout getImteView(com.janan.recruit.BaseActivity,android.os.Bundle,boolean) -> a
+com.janan.data.data.City$1 -> com.janan.b.b.b:
+    com.janan.data.data.City this$0 -> a
+    android.os.Bundle val$_Bundle -> b
+    com.janan.recruit.BaseActivity val$_Activity -> c
+    void onClick(android.view.View) -> onClick
+com.janan.data.data.DataForSearchCondition -> com.janan.b.b.c:
+    java.lang.String defaultAllString -> a
+    java.lang.String blankString -> b
+    java.lang.String[] mJobtypeStrings -> c
+    java.lang.Integer[] mJobtypeInt -> d
+    java.lang.String[] mZhaopiinleibieStrings -> e
+    java.lang.String[] mZhaopiinleibieStrings1 -> f
+    java.lang.String[] mBaochizhuStrings -> g
+    java.lang.Integer[] mBaochizhuInt -> h
+    java.lang.String[] mGongzuoshijianStrings -> i
+    java.lang.Integer[] mGongzuoshijianints -> j
+    java.lang.String[] mYixiangzhiweiStrings -> k
+    java.lang.String[] mFaburiqiStrings -> l
+    java.lang.Integer[] mFaburiqiInts -> m
+    java.lang.String[] mGongzuonianxianStrings -> n
+    java.lang.Integer[] mGongzuonianxianInts -> o
+    java.lang.String[] mXingbieyaoqiuStrings -> p
+    java.lang.Integer[] mXingbieyaoqiuInts1 -> q
+    java.lang.Integer[] mXingbieyaoqiuInts2 -> r
+    java.lang.String[] mDaogangshijianStrings -> s
+    java.lang.String[] mXueliyaoqiuStrings -> t
+    java.lang.Integer[] mXueliyaoqiuInts -> u
+    java.lang.String[] mHangyeStrings -> v
+    java.lang.Integer[] mHangyeInts -> w
+    java.lang.String[] mJiudianleixingStrings -> x
+    java.lang.Integer[] mJiudianleixingints -> y
+    java.lang.String[] mXingjiStrings -> z
+    java.lang.Integer[] mXingjiInts -> A
+    java.lang.String[] mQiwangyuexinStrings -> B
+    java.lang.String[] mQiwangxinziString_Resume -> C
+    java.lang.String[] mNianlingStrings -> D
+    java.lang.String jobString -> E
+    java.lang.String getmZhaopiinleibie4send(java.lang.String) -> a
+    int getJobtypeInt(java.lang.String) -> b
+    int getBaochizhuInt(java.lang.String) -> c
+    int getGongzuoshijianInt(java.lang.String) -> d
+    int getFaburiqiInt(java.lang.String) -> e
+    int getWorkingYear(java.lang.String) -> f
+    int getXingbie4Search(java.lang.String) -> g
+    java.lang.String getXingbie4SearchString(int) -> a
+    int getXingbie4Search2(java.lang.String) -> h
+    int getXueliyaoqiu(java.lang.String) -> i
+    int getHangye(java.lang.String) -> j
+    int getLeixing(java.lang.String) -> k
+    java.lang.String[] getDataByTag(int) -> b
+com.janan.data.data.District -> com.janan.b.b.d:
+    java.lang.String mID -> a
+    java.lang.String mName -> b
+    java.lang.String getmID() -> a
+    void setmID(java.lang.String) -> a
+    java.lang.String getmName() -> b
+    void setmName(java.lang.String) -> b
+    android.widget.LinearLayout getImteView(com.janan.recruit.BaseActivity,android.os.Bundle) -> a
+com.janan.data.data.District$1 -> com.janan.b.b.e:
+    com.janan.data.data.District this$0 -> a
+    android.os.Bundle val$_Bundle -> b
+    com.janan.recruit.BaseActivity val$_Activity -> c
+    void onClick(android.view.View) -> onClick
+com.janan.data.data.JobDept -> com.janan.b.b.f:
+    java.lang.String mId -> a
+    java.lang.String mName -> b
+    java.lang.String getmId() -> a
+    void setmId(java.lang.String) -> a
+    java.lang.String getmName() -> b
+    void setmName(java.lang.String) -> b
+    android.widget.LinearLayout getItemView(com.janan.recruit.BaseActivity,android.os.Bundle) -> a
+com.janan.data.data.JobDept$1 -> com.janan.b.b.g:
+    com.janan.data.data.JobDept this$0 -> a
+    android.os.Bundle val$_Bundle -> b
+    boolean val$hasJob -> c
+    com.janan.recruit.BaseActivity val$_Activity -> d
+    void onClick(android.view.View) -> onClick
+com.janan.data.data.JobName -> com.janan.b.b.h:
+    java.lang.String mId -> a
+    java.lang.String mName -> b
+    boolean hasMore -> c
+    java.lang.String getmId() -> a
+    void setmId(java.lang.String) -> a
+    java.lang.String getmName() -> b
+    void setmName(java.lang.String) -> b
+    android.widget.LinearLayout getImteView(com.janan.recruit.BaseActivity,android.os.Bundle) -> a
+com.janan.data.data.JobName$1 -> com.janan.b.b.i:
+    com.janan.data.data.JobName this$0 -> a
+    android.os.Bundle val$_Bundle -> b
+    com.janan.recruit.BaseActivity val$_Activity -> c
+    void onClick(android.view.View) -> onClick
+com.janan.data.data.Province -> com.janan.b.b.j:
+    java.lang.String mName -> a
+    java.lang.String mId -> b
+    java.lang.String getmName() -> a
+    void setmName(java.lang.String) -> a
+    java.lang.String getmId() -> b
+    void setmId(java.lang.String) -> b
+    android.widget.LinearLayout getItemView(com.janan.recruit.BaseActivity,android.os.Bundle,boolean) -> a
+com.janan.data.data.Province$1 -> com.janan.b.b.k:
+    com.janan.data.data.Province this$0 -> a
+    android.os.Bundle val$_Bundle -> b
+    com.janan.recruit.BaseActivity val$_Activity -> c
+    void onClick(android.view.View) -> onClick
+com.janan.net.ApplyEngine -> com.janan.c.a:
+    java.util.ArrayList mList -> j
+    com.janan.data.bean.JobInfo mInfo -> k
+    void setmInfo(com.janan.data.bean.JobInfo) -> a
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    com.janan.data.bean.JobInfo access$0(com.janan.net.ApplyEngine) -> a
+com.janan.net.ApplyEngine$1 -> com.janan.c.b:
+    com.janan.net.ApplyEngine this$0 -> a
+    void run() -> run
+com.janan.net.ApplyRecoedsEngine -> com.janan.c.c:
+    int mPage -> j
+    java.util.ArrayList mList -> k
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmPage(int) -> a
+    java.util.ArrayList getmList() -> b
+    int access$0(com.janan.net.ApplyRecoedsEngine) -> a
+com.janan.net.ApplyRecoedsEngine$1 -> com.janan.c.d:
+    com.janan.net.ApplyRecoedsEngine this$0 -> a
+    void run() -> run
+com.janan.net.BaseEngine -> com.janan.c.e:
+    com.janan.recruit.BaseActivity mActivity -> a
+    boolean isWifiConnected -> j
+    boolean isMobileConnected -> k
+    com.janan.util.NetConnectUtil netUtil -> l
+    java.lang.String msgString -> b
+    java.lang.String msgStringErrorString -> c
+    java.lang.String MSGHANDLERESULTERROR_STRING -> d
+    boolean isSuccessful -> e
+    org.apache.http.client.CookieStore mPersonCookie -> f
+    org.apache.http.client.CookieStore mCompantCookie -> g
+    boolean isPerson -> h
+    org.apache.http.HttpResponse httpResponse -> i
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void addEncodePara(java.lang.String,java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    boolean isConnected() -> c
+    void start() -> a
+    java.lang.String replaceIntToString(java.lang.String,java.lang.String[],java.lang.Integer[]) -> a
+com.janan.net.ChangePassWordEngine -> com.janan.c.f:
+    java.lang.String mOldpass -> j
+    java.lang.String mNewPass -> k
+    boolean isPerson -> l
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmOldpass(java.lang.String) -> b
+    void setmNewPass(java.lang.String) -> c
+    boolean isPerson() -> b
+    void setPerson(boolean) -> a
+    java.lang.String access$0(com.janan.net.ChangePassWordEngine) -> a
+    java.lang.String access$1(com.janan.net.ChangePassWordEngine) -> b
+com.janan.net.ChangePassWordEngine$1 -> com.janan.c.g:
+    com.janan.net.ChangePassWordEngine this$0 -> a
+    void run() -> run
+com.janan.net.CityEngine -> com.janan.c.h:
+    java.util.ArrayList mList -> j
+    java.lang.String pId -> k
+    boolean canTop -> l
+    void setpId(java.lang.String) -> b
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    java.lang.String access$0(com.janan.net.CityEngine) -> a
+com.janan.net.CityEngine$1 -> com.janan.c.i:
+    com.janan.net.CityEngine this$0 -> a
+    void run() -> run
+com.janan.net.CompanyEmailEngine -> com.janan.c.j:
+    int mPage -> k
+    java.util.ArrayList mList -> l
+    int mTag -> m
+    boolean isRecords -> j
+    void setmTag(int) -> a
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmPage(int) -> b
+    java.util.ArrayList getmList() -> b
+    int access$0(com.janan.net.CompanyEmailEngine) -> a
+    int access$1(com.janan.net.CompanyEmailEngine) -> b
+com.janan.net.CompanyEmailEngine$1 -> com.janan.c.k:
+    com.janan.net.CompanyEmailEngine this$0 -> a
+    void run() -> run
+com.janan.net.CompanyRegisterEngine -> com.janan.c.l:
+    com.janan.data.bean.company.CompanyInfo mCompany -> j
+    boolean isChange -> k
+    boolean isSearch -> l
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmCompany(com.janan.data.bean.company.CompanyInfo) -> a
+    void setChange(boolean) -> a
+    void setSearch(boolean) -> b
+    boolean access$0(com.janan.net.CompanyRegisterEngine) -> a
+    com.janan.data.bean.company.CompanyInfo access$1(com.janan.net.CompanyRegisterEngine) -> b
+    boolean access$2(com.janan.net.CompanyRegisterEngine) -> c
+com.janan.net.CompanyRegisterEngine$1 -> com.janan.c.m:
+    com.janan.net.CompanyRegisterEngine this$0 -> a
+    void run() -> run
+com.janan.net.DistrictEngine -> com.janan.c.n:
+    java.util.ArrayList mList -> j
+    java.lang.String pId -> k
+    void setpId(java.lang.String) -> b
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    java.lang.String access$0(com.janan.net.DistrictEngine) -> a
+com.janan.net.DistrictEngine$1 -> com.janan.c.o:
+    com.janan.net.DistrictEngine this$0 -> a
+    void run() -> run
+com.janan.net.JobDeptEngine -> com.janan.c.p:
+    java.util.ArrayList mList -> j
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+com.janan.net.JobDeptEngine$1 -> com.janan.c.q:
+    com.janan.net.JobDeptEngine this$0 -> a
+    void run() -> run
+com.janan.net.JobFairsListEngine -> com.janan.c.r:
+    int mPage -> j
+    java.util.ArrayList mList -> k
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmPage(int) -> a
+    java.util.ArrayList getmList() -> b
+    int access$0(com.janan.net.JobFairsListEngine) -> a
+com.janan.net.JobFairsListEngine$1 -> com.janan.c.s:
+    com.janan.net.JobFairsListEngine this$0 -> a
+    void run() -> run
+com.janan.net.JobInfoEngine -> com.janan.c.t:
+    com.janan.data.bean.JobInfo mInfo -> j
+    java.lang.String Jid -> k
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    com.janan.data.bean.JobInfo getmJobInfo() -> b
+    void setJid(java.lang.String) -> b
+    java.lang.String access$0(com.janan.net.JobInfoEngine) -> a
+com.janan.net.JobInfoEngine$1 -> com.janan.c.u:
+    com.janan.net.JobInfoEngine this$0 -> a
+    void run() -> run
+com.janan.net.JobNameEngine -> com.janan.c.v:
+    java.util.ArrayList mList -> j
+    java.lang.String DpId -> k
+    void setDpId(java.lang.String) -> b
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    java.lang.String access$0(com.janan.net.JobNameEngine) -> a
+com.janan.net.JobNameEngine$1 -> com.janan.c.w:
+    com.janan.net.JobNameEngine this$0 -> a
+    void run() -> run
+com.janan.net.LoginEngine -> com.janan.c.x:
+    java.lang.String mEmail -> j
+    java.lang.String mPassWord -> k
+    void setmEmail(java.lang.String) -> b
+    void setmPassWord(java.lang.String) -> c
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.lang.String access$0(com.janan.net.LoginEngine) -> a
+    java.lang.String access$1(com.janan.net.LoginEngine) -> b
+com.janan.net.LoginEngine$1 -> com.janan.c.y:
+    com.janan.net.LoginEngine this$0 -> a
+    void run() -> run
+com.janan.net.ProvinceEngine -> com.janan.c.z:
+    java.util.ArrayList mList -> j
+    boolean canTop -> k
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+com.janan.net.ProvinceEngine$1 -> com.janan.c.aa:
+    com.janan.net.ProvinceEngine this$0 -> a
+    void run() -> run
+com.janan.net.RecieveResumesEngine -> com.janan.c.ab:
+    java.util.ArrayList mList -> j
+    java.lang.String jobIdString -> k
+    java.lang.String personIdString -> l
+    java.lang.String dateString -> m
+    boolean isSend -> n
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    void setJobIdString(java.lang.String) -> b
+    void setPersonIdString(java.lang.String) -> c
+    void setDateString(java.lang.String) -> d
+    boolean isSend() -> d
+    void setSend(boolean) -> a
+    java.lang.String access$0(com.janan.net.RecieveResumesEngine) -> a
+    java.lang.String access$1(com.janan.net.RecieveResumesEngine) -> b
+    java.lang.String access$2(com.janan.net.RecieveResumesEngine) -> c
+com.janan.net.RecieveResumesEngine$1 -> com.janan.c.ac:
+    com.janan.net.RecieveResumesEngine this$0 -> a
+    void run() -> run
+com.janan.net.RefreshResumeEngine -> com.janan.c.ad:
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+com.janan.net.RefreshResumeEngine$1 -> com.janan.c.ae:
+    com.janan.net.RefreshResumeEngine this$0 -> a
+    void run() -> run
+com.janan.net.RegisterEngine -> com.janan.c.af:
+    java.util.ArrayList mList -> j
+    java.lang.String mUserName -> k
+    java.lang.String mPassWord -> l
+    java.lang.String mEmail -> m
+    java.lang.String mQQ -> n
+    java.lang.String mUserTypeString -> o
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmUserName(java.lang.String) -> b
+    void setmPassWord(java.lang.String) -> c
+    void setmEmail(java.lang.String) -> d
+    void setmUserTypeString(java.lang.String) -> e
+    void setmQQ(java.lang.String) -> f
+    java.lang.String access$0(com.janan.net.RegisterEngine) -> a
+    java.lang.String access$1(com.janan.net.RegisterEngine) -> b
+    java.lang.String access$2(com.janan.net.RegisterEngine) -> c
+    java.lang.String access$3(com.janan.net.RegisterEngine) -> d
+    java.lang.String access$4(com.janan.net.RegisterEngine) -> e
+com.janan.net.RegisterEngine$1 -> com.janan.c.ag:
+    com.janan.net.RegisterEngine this$0 -> a
+    void run() -> run
+com.janan.net.ResumeInfoChangeEngine -> com.janan.c.ah:
+    com.janan.data.bean.personal.Resume mResume -> j
+    void setmResume(com.janan.data.bean.personal.Resume) -> a
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    com.janan.data.bean.personal.Resume access$0(com.janan.net.ResumeInfoChangeEngine) -> a
+com.janan.net.ResumeInfoChangeEngine$1 -> com.janan.c.ai:
+    com.janan.net.ResumeInfoChangeEngine this$0 -> a
+    void run() -> run
+com.janan.net.ResumeInfoEngine -> com.janan.c.aj:
+    com.janan.data.bean.personal.Resume mResume -> j
+    java.lang.String perId -> k
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    com.janan.data.bean.personal.Resume getmResume() -> b
+    void setPerId(java.lang.String) -> b
+    java.lang.String access$0(com.janan.net.ResumeInfoEngine) -> a
+com.janan.net.ResumeInfoEngine$1 -> com.janan.c.ak:
+    com.janan.net.ResumeInfoEngine this$0 -> a
+    void run() -> run
+com.janan.net.SearchEngine -> com.janan.c.al:
+    com.janan.data.bean.search.NearSearch mSearchkeys -> j
+    int mPage -> k
+    java.util.ArrayList mList -> l
+    com.janan.data.bean.JobInfo mInfo -> m
+    void setmSearchkeys(com.janan.data.bean.search.NearSearch) -> a
+    void setmPage(int) -> a
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    com.janan.data.bean.search.NearSearch access$0(com.janan.net.SearchEngine) -> a
+    int access$1(com.janan.net.SearchEngine) -> b
+com.janan.net.SearchEngine$1 -> com.janan.c.am:
+    com.janan.net.SearchEngine this$0 -> a
+    void run() -> run
+com.janan.net.SearchResumeEngine -> com.janan.c.an:
+    com.janan.data.bean.search.NearSearch mSearchkeys -> j
+    int mPage -> k
+    java.util.ArrayList mList -> l
+    com.janan.data.bean.personal.Resume mResume -> m
+    boolean isSubscribe -> n
+    void setmSearchkeys(com.janan.data.bean.search.NearSearch) -> a
+    void setmPage(int) -> a
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    com.janan.data.bean.search.NearSearch access$0(com.janan.net.SearchResumeEngine) -> a
+    int access$1(com.janan.net.SearchResumeEngine) -> b
+com.janan.net.SearchResumeEngine$1 -> com.janan.c.ao:
+    com.janan.net.SearchResumeEngine this$0 -> a
+    void run() -> run
+com.janan.net.SendJobsInfoEngine -> com.janan.c.ap:
+    com.janan.data.bean.JobInfo mInfo -> j
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void start() -> a
+    void parseResponse(java.lang.String) -> a
+    void setmInfo(com.janan.data.bean.JobInfo) -> a
+    com.janan.data.bean.JobInfo access$0(com.janan.net.SendJobsInfoEngine) -> a
+com.janan.net.SendJobsInfoEngine$1 -> com.janan.c.aq:
+    com.janan.net.SendJobsInfoEngine this$0 -> a
+    void run() -> run
+com.janan.net.SendResumeOutEngine -> com.janan.c.ar:
+    java.lang.String jobName -> j
+    java.lang.String comName -> k
+    java.lang.String comEmail -> l
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setJobName(java.lang.String) -> b
+    void setComName(java.lang.String) -> c
+    void setComEmail(java.lang.String) -> d
+    java.lang.String access$0(com.janan.net.SendResumeOutEngine) -> a
+    java.lang.String access$1(com.janan.net.SendResumeOutEngine) -> b
+    java.lang.String access$2(com.janan.net.SendResumeOutEngine) -> c
+com.janan.net.SendResumeOutEngine$1 -> com.janan.c.as:
+    com.janan.net.SendResumeOutEngine this$0 -> a
+    void run() -> run
+com.janan.net.SendResumeOutRecordsEngine -> com.janan.c.at:
+    java.util.ArrayList mList -> j
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+com.janan.net.SendResumeOutRecordsEngine$1 -> com.janan.c.au:
+    com.janan.net.SendResumeOutRecordsEngine this$0 -> a
+    void run() -> run
+com.janan.net.SubscribeJobEngine -> com.janan.c.av:
+    int mPage -> j
+    java.util.ArrayList mList -> k
+    com.janan.data.bean.JobInfo mInfo -> l
+    boolean isSubscribe -> m
+    com.janan.data.bean.search.NearSearch mSearchkeys -> n
+    void setmPage(int) -> a
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    java.util.ArrayList getmList() -> b
+    void setSubscribe(boolean) -> a
+    void setmSearchkeys(com.janan.data.bean.search.NearSearch) -> a
+    boolean access$0(com.janan.net.SubscribeJobEngine) -> a
+    int access$1(com.janan.net.SubscribeJobEngine) -> b
+    com.janan.data.bean.search.NearSearch access$2(com.janan.net.SubscribeJobEngine) -> c
+com.janan.net.SubscribeJobEngine$1 -> com.janan.c.aw:
+    com.janan.net.SubscribeJobEngine this$0 -> a
+    void run() -> run
+com.janan.net.WorkDynamicsInfoEngine -> com.janan.c.ax:
+    com.janan.data.bean.News mNews -> j
+    java.lang.String newsId -> k
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    com.janan.data.bean.News getmNews() -> b
+    void setNewsId(java.lang.String) -> b
+    java.lang.String access$0(com.janan.net.WorkDynamicsInfoEngine) -> a
+com.janan.net.WorkDynamicsInfoEngine$1 -> com.janan.c.ay:
+    com.janan.net.WorkDynamicsInfoEngine this$0 -> a
+    void run() -> run
+com.janan.net.WorkDynamicsListEngine -> com.janan.c.az:
+    int mPage -> j
+    boolean isShixi -> k
+    java.util.ArrayList mList -> l
+    java.util.ArrayList shiList -> m
+    void start() -> a
+    void requestToNet(java.lang.String,java.util.ArrayList) -> a
+    void parseResponse(java.lang.String) -> a
+    void setmPage(int) -> a
+    java.util.ArrayList getmList() -> b
+    void setShixi$1385ff() -> d
+    java.util.ArrayList getShiList() -> e
+    int access$0(com.janan.net.WorkDynamicsListEngine) -> a
+    boolean access$1(com.janan.net.WorkDynamicsListEngine) -> b
+com.janan.net.WorkDynamicsListEngine$1 -> com.janan.c.ba:
+    com.janan.net.WorkDynamicsListEngine this$0 -> a
+    void run() -> run
+com.janan.recruit.BaseActivity -> com.janan.recruit.BaseActivity:
+    java.lang.String mTitle -> a
+    com.janan.recruit.BaseActivity mActivity -> b
+    com.janan.data.bean.personal.User mUser -> c
+    com.janan.data.bean.company.CompanyInfo mCompany -> d
+    android.widget.TextView mFooter -> e
+    java.lang.String toastNullString -> f
+    java.lang.String toastPassErrorString -> g
+    java.lang.String toastRegisterSuccess -> h
+    java.lang.String toastWrongEmail -> i
+    java.lang.String toastLoginError -> j
+    java.lang.String toastRegister -> k
+    java.lang.String toastChangSuccess -> l
+    java.lang.String toastFabuSuccess -> m
+    java.lang.String toastNoResumes -> n
+    java.lang.String toastSureLogin -> o
+    com.janan.view.mamager.TitleBarManager mBarUtil -> p
+    android.widget.LinearLayout mRootLayout -> q
+    android.os.Handler mHandler -> r
+    android.app.ProgressDialog mypDialog -> s
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void callBack(int,java.lang.String) -> a
+    void showToast(android.os.Message) -> a
+    void showToast(java.lang.String) -> a
+    void showProgress() -> f
+    void closeProgress() -> g
+    void startRequest() -> h
+    void setListenter() -> i
+com.janan.recruit.BaseActivity$1 -> com.janan.recruit.a:
+    com.janan.recruit.BaseActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.BaseActivity$2 -> com.janan.recruit.b:
+    com.janan.recruit.BaseActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.JobFairsInfoActivity -> com.janan.recruit.JobFairsInfoActivity:
+    com.janan.data.bean.JobFairs mInfo -> t
+    android.widget.TextView mTitleView -> u
+    android.widget.TextView mShortTitleView -> v
+    android.widget.TextView mCopyfromView -> w
+    android.widget.TextView mHitsView -> x
+    android.widget.TextView mContentView -> y
+    void initView() -> e
+    void showSelf() -> d
+    void onCreate(android.os.Bundle) -> onCreate
+com.janan.recruit.JobFairsListActivity -> com.janan.recruit.JobFairsListActivity:
+    com.janan.net.JobFairsListEngine mListEngine -> t
+    int mPage -> u
+    android.widget.ListView mListView -> v
+    com.janan.adapter.JobFairsTitleAdapter mAdapter -> w
+    java.util.ArrayList mList -> x
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void startRequest() -> h
+    void setListenter() -> i
+    com.janan.net.JobFairsListEngine access$0(com.janan.recruit.JobFairsListActivity) -> a
+    int access$1(com.janan.recruit.JobFairsListActivity) -> b
+    void access$2(com.janan.recruit.JobFairsListActivity,int) -> a
+    android.widget.ListView access$3(com.janan.recruit.JobFairsListActivity) -> c
+    com.janan.adapter.JobFairsTitleAdapter access$4(com.janan.recruit.JobFairsListActivity) -> d
+    void access$5(com.janan.recruit.JobFairsListActivity,com.janan.adapter.JobFairsTitleAdapter) -> a
+    void access$6(com.janan.recruit.JobFairsListActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$7(com.janan.recruit.JobFairsListActivity) -> e
+com.janan.recruit.JobFairsListActivity$1 -> com.janan.recruit.c:
+    com.janan.recruit.JobFairsListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.JobFairsListActivity$2 -> com.janan.recruit.d:
+    com.janan.recruit.JobFairsListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.MainTabActivity -> com.janan.recruit.MainTabActivity:
+    android.widget.TabHost mTabHost -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void addTab(com.janan.data.bean.TabData) -> a
+com.janan.recruit.WelcomeActivity -> com.janan.recruit.WelcomeActivity:
+    android.os.Handler mHandler -> t
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$0(com.janan.recruit.WelcomeActivity) -> a
+com.janan.recruit.WelcomeActivity$1 -> com.janan.recruit.e:
+    com.janan.recruit.WelcomeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.WelcomeActivity$MyThread -> com.janan.recruit.f:
+    com.janan.recruit.WelcomeActivity this$0 -> a
+    void run() -> run
+com.janan.recruit.companyactivity.CompanyActivity -> com.janan.recruit.companyactivity.CompanyActivity:
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    android.widget.LinearLayout mRootLayout -> y
+    android.widget.LinearLayout unLogLayout -> z
+    android.widget.ScrollView logedScrollView -> A
+    android.widget.TextView mQiyexinxiTextView -> B
+    android.widget.TextView mXinxifabuTextView -> C
+    android.widget.TextView mShoudaojianliTextView -> D
+    android.widget.TextView mMianshitongzhiTextView -> E
+    android.widget.TextView mMimaxiugaiTextView -> F
+    android.widget.TextView mSousuojianliTextView -> G
+    android.widget.TextView welcomeText -> H
+    android.widget.EditText mUserNameEditText -> I
+    android.widget.EditText mPassWordEditText -> J
+    android.widget.CheckBox mCheckBox -> K
+    boolean isAuto -> L
+    boolean isLogin -> M
+    android.view.View mBar -> t
+    java.lang.String _PassWordString -> u
+    java.lang.String _UserNameString -> v
+    com.janan.net.LoginEngine mEngine -> w
+    void addBar() -> a
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void login(android.view.View) -> login
+    void startLogin() -> j
+    void register(android.view.View) -> register
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void access$0(com.janan.recruit.companyactivity.CompanyActivity) -> a
+    void access$1(com.janan.recruit.companyactivity.CompanyActivity,boolean) -> a
+    android.widget.ScrollView access$2(com.janan.recruit.companyactivity.CompanyActivity) -> b
+    android.widget.LinearLayout access$3(com.janan.recruit.companyactivity.CompanyActivity) -> c
+    void access$4(com.janan.recruit.companyactivity.CompanyActivity,boolean) -> b
+    android.widget.EditText access$5(com.janan.recruit.companyactivity.CompanyActivity) -> d
+    android.widget.EditText access$6(com.janan.recruit.companyactivity.CompanyActivity) -> e
+    android.widget.TextView access$7(com.janan.recruit.companyactivity.CompanyActivity) -> f
+com.janan.recruit.companyactivity.CompanyActivity$1 -> com.janan.recruit.companyactivity.a:
+    com.janan.recruit.companyactivity.CompanyActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.companyactivity.CompanyActivity$2 -> com.janan.recruit.companyactivity.b:
+    com.janan.recruit.companyactivity.CompanyActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.janan.recruit.companyactivity.CompanyActivity$3 -> com.janan.recruit.companyactivity.c:
+    com.janan.recruit.companyactivity.CompanyActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.janan.recruit.companyactivity.CompanyActivity$4 -> com.janan.recruit.companyactivity.d:
+    com.janan.recruit.companyactivity.CompanyActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.janan.recruit.companyactivity.CompanyActivity$5 -> com.janan.recruit.companyactivity.e:
+    com.janan.recruit.companyactivity.CompanyActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.companyactivity.CompanyInfoActivity -> com.janan.recruit.companyactivity.CompanyInfoActivity:
+    java.lang.String mTitle -> u
+    com.janan.view.mamager.TitleBarManager mBarUtil -> v
+    com.janan.recruit.BaseActivity mActivity -> w
+    boolean isRegister -> x
+    android.widget.LinearLayout mRootLayout -> y
+    android.widget.EditText mUserNameEditText -> z
+    android.widget.EditText mPassWordEditText -> A
+    android.widget.EditText mConfirmPassEditText -> B
+    android.widget.EditText mEmailEditText -> C
+    android.widget.EditText mCompanynameEditText -> D
+    android.widget.EditText mContactNameEditText -> E
+    android.widget.TextView mArreaText -> F
+    android.widget.EditText mAddressEditText -> G
+    android.widget.EditText mPhoneEditText -> H
+    android.widget.TextView mSuoshuhangyeTextView -> I
+    android.widget.TextView mHangyeleixingTextView -> J
+    android.widget.TextView mXingjibiaozhunTextView -> K
+    android.widget.LinearLayout mJianjieLayout -> L
+    android.widget.EditText mJianjieEdit -> M
+    android.widget.Button mButton -> N
+    com.janan.net.CompanyRegisterEngine mRegisEngine -> t
+    void addBar() -> a
+    void updateUI() -> b
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void registerOnclick(android.view.View) -> registerOnclick
+    void onClick(android.view.View) -> onClick
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean access$0(com.janan.recruit.companyactivity.CompanyInfoActivity) -> a
+    android.widget.EditText access$1(com.janan.recruit.companyactivity.CompanyInfoActivity) -> b
+    android.widget.EditText access$2(com.janan.recruit.companyactivity.CompanyInfoActivity) -> c
+    android.widget.TextView access$3(com.janan.recruit.companyactivity.CompanyInfoActivity) -> d
+    android.widget.EditText access$4(com.janan.recruit.companyactivity.CompanyInfoActivity) -> e
+    android.widget.EditText access$5(com.janan.recruit.companyactivity.CompanyInfoActivity) -> f
+    android.widget.EditText access$6(com.janan.recruit.companyactivity.CompanyInfoActivity) -> g
+com.janan.recruit.companyactivity.CompanyInfoActivity$1 -> com.janan.recruit.companyactivity.f:
+    com.janan.recruit.companyactivity.CompanyInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.companyactivity.CompanyInfoActivity$2 -> com.janan.recruit.companyactivity.g:
+    com.janan.recruit.companyactivity.CompanyInfoActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.companyactivity.JobsActivity -> com.janan.recruit.companyactivity.JobsActivity:
+    android.widget.ListView mListView -> t
+    java.util.ArrayList mList -> u
+    com.janan.recruit.BaseActivity mActivity -> v
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    com.janan.recruit.BaseActivity access$0(com.janan.recruit.companyactivity.JobsActivity) -> a
+com.janan.recruit.companyactivity.JobsActivity$1 -> com.janan.recruit.companyactivity.h:
+    com.janan.recruit.companyactivity.JobsActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.companyactivity.RecieveResumeActivity -> com.janan.recruit.companyactivity.RecieveResumeActivity:
+    android.widget.ListView mListView -> x
+    java.util.ArrayList mList -> y
+    java.util.ArrayList mCheckedList -> z
+    com.janan.adapter.RecieveResumesAdapter mAdapter -> A
+    boolean canCheck -> B
+    android.widget.Button sendButton -> C
+    int mYear -> D
+    int mMonth -> E
+    int mDay -> F
+    int mHour -> G
+    int mMin -> H
+    boolean isSended -> t
+    int sendCount -> u
+    com.janan.net.RecieveResumesEngine mEngine -> v
+    android.app.TimePickerDialog tlg -> w
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void startRequest() -> h
+    void sendNotify(android.view.View) -> sendNotify
+    void onDateSet(android.widget.DatePicker,int,int,int) -> onDateSet
+    void onTimeSet(android.widget.TimePicker,int,int) -> onTimeSet
+    com.janan.adapter.RecieveResumesAdapter access$0(com.janan.recruit.companyactivity.RecieveResumeActivity) -> a
+    boolean access$1(com.janan.recruit.companyactivity.RecieveResumeActivity) -> b
+    void access$2(com.janan.recruit.companyactivity.RecieveResumeActivity,com.janan.adapter.RecieveResumesAdapter) -> a
+    android.widget.Button access$3(com.janan.recruit.companyactivity.RecieveResumeActivity) -> c
+    void access$4(com.janan.recruit.companyactivity.RecieveResumeActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$5(com.janan.recruit.companyactivity.RecieveResumeActivity) -> d
+    android.widget.ListView access$6(com.janan.recruit.companyactivity.RecieveResumeActivity) -> e
+    java.util.ArrayList access$7(com.janan.recruit.companyactivity.RecieveResumeActivity) -> f
+    int access$8(com.janan.recruit.companyactivity.RecieveResumeActivity) -> g
+    int access$9(com.janan.recruit.companyactivity.RecieveResumeActivity) -> h
+    int access$10(com.janan.recruit.companyactivity.RecieveResumeActivity) -> i
+    int access$11(com.janan.recruit.companyactivity.RecieveResumeActivity) -> j
+    int access$12(com.janan.recruit.companyactivity.RecieveResumeActivity) -> k
+com.janan.recruit.companyactivity.RecieveResumeActivity$1 -> com.janan.recruit.companyactivity.i:
+    com.janan.recruit.companyactivity.RecieveResumeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.companyactivity.SearchResumeActivity -> com.janan.recruit.companyactivity.SearchResumeActivity:
+    com.janan.view.mamager.SearchConditionsManager mSearchManager -> t
+    android.widget.ScrollView mScroll -> u
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.janan.recruit.companyactivity.SearchResumeListActivity -> com.janan.recruit.companyactivity.SearchResumeListActivity:
+    com.janan.net.SearchResumeEngine mEngine -> t
+    android.widget.ListView mListView -> u
+    com.janan.data.bean.search.NearSearch mSearch -> v
+    int mPage -> w
+    com.janan.adapter.ResumeListAdapter mAdapter -> x
+    java.util.ArrayList mList -> y
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void setListenter() -> i
+    com.janan.adapter.ResumeListAdapter access$0(com.janan.recruit.companyactivity.SearchResumeListActivity) -> a
+    void access$1(com.janan.recruit.companyactivity.SearchResumeListActivity,com.janan.adapter.ResumeListAdapter) -> a
+    android.widget.ListView access$2(com.janan.recruit.companyactivity.SearchResumeListActivity) -> b
+    com.janan.net.SearchResumeEngine access$3(com.janan.recruit.companyactivity.SearchResumeListActivity) -> c
+    int access$4(com.janan.recruit.companyactivity.SearchResumeListActivity) -> d
+    void access$5(com.janan.recruit.companyactivity.SearchResumeListActivity,int) -> a
+    void access$6(com.janan.recruit.companyactivity.SearchResumeListActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$7(com.janan.recruit.companyactivity.SearchResumeListActivity) -> e
+com.janan.recruit.companyactivity.SearchResumeListActivity$1 -> com.janan.recruit.companyactivity.j:
+    com.janan.recruit.companyactivity.SearchResumeListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.companyactivity.SearchResumeListActivity$2 -> com.janan.recruit.companyactivity.k:
+    com.janan.recruit.companyactivity.SearchResumeListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.companyactivity.SendJobsInfoActivity -> com.janan.recruit.companyactivity.SendJobsInfoActivity:
+    android.widget.EditText jobNameEditView -> u
+    android.widget.TextView jobClassTextView -> v
+    android.widget.TextView jobPlaceTextView -> w
+    android.widget.TextView woringYearsTextView -> x
+    android.widget.TextView mZhaopinduixiangTextView -> y
+    android.widget.TextView mZhaopinleibieTextView -> z
+    android.widget.TextView mBaochizhuTextView -> A
+    android.widget.TextView mGongzuoshijianTextView -> B
+    android.widget.TextView mJiezhiriqiTextView -> C
+    android.widget.TextView jobDealTextView -> D
+    android.widget.EditText countEditText -> E
+    android.widget.EditText requiredEditText -> F
+    com.janan.recruit.companyactivity.SendJobsInfoActivity$MyClickListener mListener -> G
+    com.janan.data.bean.JobInfo mInfo -> H
+    int mYear -> I
+    int mMonth -> J
+    int mDay -> K
+    com.janan.net.SendJobsInfoEngine mEngine -> t
+    void showSelf() -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> e
+    void setListenter() -> i
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void buttonOnclick(android.view.View) -> buttonOnclick
+    void startRequest() -> h
+    void onDateSet(android.widget.DatePicker,int,int,int) -> onDateSet
+    android.widget.TextView access$0(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> a
+    android.widget.TextView access$1(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> b
+    android.widget.TextView access$2(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> c
+    android.widget.TextView access$3(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> d
+    android.widget.TextView access$4(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> e
+    android.widget.TextView access$5(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> f
+    android.widget.TextView access$6(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> g
+    android.widget.TextView access$7(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> h
+    void access$8(com.janan.recruit.companyactivity.SendJobsInfoActivity,int) -> a
+    void access$9(com.janan.recruit.companyactivity.SendJobsInfoActivity,int) -> b
+    void access$10(com.janan.recruit.companyactivity.SendJobsInfoActivity,int) -> c
+    int access$11(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> i
+    int access$12(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> j
+    int access$13(com.janan.recruit.companyactivity.SendJobsInfoActivity) -> k
+com.janan.recruit.companyactivity.SendJobsInfoActivity$1 -> com.janan.recruit.companyactivity.l:
+    com.janan.recruit.companyactivity.SendJobsInfoActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.companyactivity.SendJobsInfoActivity$2 -> com.janan.recruit.companyactivity.m:
+    com.janan.recruit.companyactivity.SendJobsInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.companyactivity.SendJobsInfoActivity$MyClickListener -> com.janan.recruit.companyactivity.n:
+    com.janan.recruit.companyactivity.SendJobsInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.ChangPassWordActivity -> com.janan.recruit.personalactivity.ChangPassWordActivity:
+    android.widget.LinearLayout mRootLayout -> t
+    android.widget.EditText mOldPassEdit -> u
+    android.widget.EditText mNewPassEdit -> v
+    android.widget.EditText mConfirmPassEdit -> w
+    java.lang.String oldPass -> x
+    java.lang.String newPass -> y
+    java.lang.String confirmPass -> z
+    com.janan.view.mamager.TitleBarManager mBarUtil -> A
+    android.widget.Button confirmButton -> B
+    com.janan.net.ChangePassWordEngine mEnging -> C
+    boolean isPerson -> D
+    void addBar() -> a
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.EditText access$0(com.janan.recruit.personalactivity.ChangPassWordActivity) -> a
+    android.widget.EditText access$1(com.janan.recruit.personalactivity.ChangPassWordActivity) -> b
+    android.widget.EditText access$2(com.janan.recruit.personalactivity.ChangPassWordActivity) -> c
+    void access$3(com.janan.recruit.personalactivity.ChangPassWordActivity,java.lang.String) -> a
+    void access$4(com.janan.recruit.personalactivity.ChangPassWordActivity,java.lang.String) -> b
+    void access$5(com.janan.recruit.personalactivity.ChangPassWordActivity,java.lang.String) -> c
+    java.lang.String access$6(com.janan.recruit.personalactivity.ChangPassWordActivity) -> d
+    java.lang.String access$7(com.janan.recruit.personalactivity.ChangPassWordActivity) -> e
+    void access$8(com.janan.recruit.personalactivity.ChangPassWordActivity) -> f
+com.janan.recruit.personalactivity.ChangPassWordActivity$1 -> com.janan.recruit.personalactivity.a:
+    com.janan.recruit.personalactivity.ChangPassWordActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.ChangPassWordActivity$2 -> com.janan.recruit.personalactivity.b:
+    com.janan.recruit.personalactivity.ChangPassWordActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.ChangPassWordActivity$3 -> com.janan.recruit.personalactivity.c:
+    com.janan.recruit.personalactivity.ChangPassWordActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.CompanyEmailActivity -> com.janan.recruit.personalactivity.CompanyEmailActivity:
+    android.widget.LinearLayout mRootLayout -> u
+    com.janan.view.mamager.TitleBarManager mBarUtil -> v
+    android.widget.TextView mNocomTextView -> w
+    android.widget.ListView mComsListView -> x
+    java.util.ArrayList mList -> y
+    com.janan.adapter.SeeMyResumeAdapter mAdapter -> z
+    com.janan.data.bean.personal.User mUser -> A
+    com.janan.net.CompanyEmailEngine mEngine -> B
+    int mPage -> C
+    int tag -> t
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void startSearch() -> j
+    java.util.ArrayList access$0(com.janan.recruit.personalactivity.CompanyEmailActivity) -> a
+    com.janan.net.CompanyEmailEngine access$1(com.janan.recruit.personalactivity.CompanyEmailActivity) -> b
+    android.widget.ListView access$2(com.janan.recruit.personalactivity.CompanyEmailActivity) -> c
+    int access$3(com.janan.recruit.personalactivity.CompanyEmailActivity) -> d
+    void access$4(com.janan.recruit.personalactivity.CompanyEmailActivity,int) -> a
+    com.janan.adapter.SeeMyResumeAdapter access$5(com.janan.recruit.personalactivity.CompanyEmailActivity) -> e
+    void access$6(com.janan.recruit.personalactivity.CompanyEmailActivity,com.janan.adapter.SeeMyResumeAdapter) -> a
+    void access$7(com.janan.recruit.personalactivity.CompanyEmailActivity,java.util.ArrayList) -> a
+    android.widget.TextView access$8(com.janan.recruit.personalactivity.CompanyEmailActivity) -> f
+com.janan.recruit.personalactivity.CompanyEmailActivity$1 -> com.janan.recruit.personalactivity.d:
+    com.janan.recruit.personalactivity.CompanyEmailActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.CompanyEmailActivity$2 -> com.janan.recruit.personalactivity.e:
+    com.janan.recruit.personalactivity.CompanyEmailActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.personalactivity.CompanyEmailActivity$3 -> com.janan.recruit.personalactivity.f:
+    com.janan.recruit.personalactivity.CompanyEmailActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.CompanyEmailActivity$4 -> com.janan.recruit.personalactivity.g:
+    com.janan.recruit.personalactivity.CompanyEmailActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.ConverLetterActivity -> com.janan.recruit.personalactivity.ConverLetterActivity:
+    com.janan.data.bean.personal.CoverLetter mLetter -> t
+    void addBar() -> a
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+com.janan.recruit.personalactivity.JobsCollectionActivity -> com.janan.recruit.personalactivity.JobsCollectionActivity:
+    java.util.ArrayList mList -> t
+    android.widget.ListView mListView -> u
+    android.widget.LinearLayout mRootLayout -> v
+    com.janan.view.mamager.TitleBarManager mBarUtil -> w
+    com.janan.adapter.PositionSubscribeAdapter mAdapter -> x
+    boolean canDelete -> y
+    void addBar() -> a
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void updateUI() -> b
+    android.widget.ListView access$0(com.janan.recruit.personalactivity.JobsCollectionActivity) -> a
+    com.janan.adapter.PositionSubscribeAdapter access$1(com.janan.recruit.personalactivity.JobsCollectionActivity) -> b
+    java.util.ArrayList access$2(com.janan.recruit.personalactivity.JobsCollectionActivity) -> c
+    void access$3(com.janan.recruit.personalactivity.JobsCollectionActivity,java.util.ArrayList) -> a
+com.janan.recruit.personalactivity.JobsCollectionActivity$1 -> com.janan.recruit.personalactivity.h:
+    com.janan.recruit.personalactivity.JobsCollectionActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.JobsCollectionActivity$2 -> com.janan.recruit.personalactivity.i:
+    com.janan.recruit.personalactivity.JobsCollectionActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.janan.recruit.personalactivity.JobsCollectionActivity access$0(com.janan.recruit.personalactivity.JobsCollectionActivity$2) -> a
+com.janan.recruit.personalactivity.JobsCollectionActivity$2$1 -> com.janan.recruit.personalactivity.j:
+    com.janan.recruit.personalactivity.JobsCollectionActivity$2 this$1 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.personalactivity.JobsCollectionActivity$3 -> com.janan.recruit.personalactivity.k:
+    com.janan.recruit.personalactivity.JobsCollectionActivity this$0 -> a
+    void run() -> run
+com.janan.recruit.personalactivity.JobsListActivity -> com.janan.recruit.personalactivity.JobsListActivity:
+    android.widget.LinearLayout mRootLayout -> t
+    android.widget.ListView mJobsListView -> u
+    com.janan.view.mamager.TitleBarManager mBarUtil -> v
+    boolean isCollection -> w
+    com.janan.net.ApplyRecoedsEngine applyEngine -> x
+    int mPage -> y
+    com.janan.adapter.ApplyRecordsAdapter appAdapter -> z
+    void addBar() -> a
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void showProgress() -> f
+    void closeProgress() -> g
+    void access$0(com.janan.recruit.personalactivity.JobsListActivity,com.janan.adapter.ApplyRecordsAdapter) -> a
+    com.janan.adapter.ApplyRecordsAdapter access$1(com.janan.recruit.personalactivity.JobsListActivity) -> a
+    com.janan.net.ApplyRecoedsEngine access$2(com.janan.recruit.personalactivity.JobsListActivity) -> b
+    android.widget.ListView access$3(com.janan.recruit.personalactivity.JobsListActivity) -> c
+com.janan.recruit.personalactivity.JobsListActivity$1 -> com.janan.recruit.personalactivity.l:
+    com.janan.recruit.personalactivity.JobsListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.JobsListActivity$2 -> com.janan.recruit.personalactivity.m:
+    com.janan.recruit.personalactivity.JobsListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.JobsListActivity$2$1 -> com.janan.recruit.personalactivity.n:
+    com.janan.recruit.personalactivity.JobsListActivity$2 this$1 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.personalactivity.PersonalAcitivty -> com.janan.recruit.personalactivity.PersonalAcitivty:
+    android.widget.LinearLayout mRootLayout -> w
+    android.widget.LinearLayout mLayout_Line1 -> x
+    android.widget.LinearLayout mLayout_Line2 -> y
+    android.widget.LinearLayout mLayout_Line3 -> z
+    android.widget.LinearLayout mLayout_Line4 -> A
+    android.widget.LinearLayout mLayout_Line5 -> B
+    android.widget.LinearLayout mUnLogView -> C
+    android.widget.ScrollView mLoggedView -> D
+    android.widget.EditText mUserNameEditText -> E
+    android.widget.EditText mPassWordEditText -> F
+    android.widget.TextView mWelComeTitle -> G
+    com.janan.view.mamager.TitleBarManager mBarUtil -> H
+    boolean isLogin -> I
+    android.widget.CheckBox mCheckBox -> J
+    boolean isAuto -> K
+    boolean startFromApply -> L
+    com.janan.net.LoginEngine mEngine -> t
+    java.lang.String mUserNameString -> M
+    java.lang.String mPasswordString -> N
+    android.view.View mBar -> u
+    boolean isRegister -> v
+    void showChoiceDialog() -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    void login(android.view.View) -> login
+    void startLogin() -> k
+    void register(android.view.View) -> register
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void access$0(com.janan.recruit.personalactivity.PersonalAcitivty,boolean) -> a
+    android.widget.EditText access$1(com.janan.recruit.personalactivity.PersonalAcitivty) -> a
+    android.widget.EditText access$2(com.janan.recruit.personalactivity.PersonalAcitivty) -> b
+    boolean access$3(com.janan.recruit.personalactivity.PersonalAcitivty) -> c
+    void access$4(com.janan.recruit.personalactivity.PersonalAcitivty) -> d
+    void access$5(com.janan.recruit.personalactivity.PersonalAcitivty,boolean) -> b
+com.janan.recruit.personalactivity.PersonalAcitivty$1 -> com.janan.recruit.personalactivity.o:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.janan.recruit.personalactivity.PersonalAcitivty$2 -> com.janan.recruit.personalactivity.p:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.janan.recruit.personalactivity.PersonalAcitivty$3 -> com.janan.recruit.personalactivity.q:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.PersonalAcitivty$4 -> com.janan.recruit.personalactivity.r:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.janan.recruit.personalactivity.PersonalAcitivty$5 -> com.janan.recruit.personalactivity.s:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.janan.recruit.personalactivity.PersonalAcitivty$6 -> com.janan.recruit.personalactivity.t:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.PersonalAcitivty$7 -> com.janan.recruit.personalactivity.u:
+    com.janan.recruit.personalactivity.PersonalAcitivty this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.janan.recruit.personalactivity.RegisterActivity -> com.janan.recruit.personalactivity.RegisterActivity:
+    com.janan.view.mamager.TitleBarManager mBarUtil -> u
+    android.widget.LinearLayout mRootLayout -> v
+    android.widget.EditText mUserNameEditText -> w
+    android.widget.EditText mPassWordEditText -> x
+    android.widget.EditText mConfirmPassEditText -> y
+    android.widget.EditText mEmailEditText -> z
+    android.widget.EditText mQQEditText -> A
+    java.lang.String mUserName -> B
+    java.lang.String mpassWord -> C
+    java.lang.String mConfirmPass -> D
+    java.lang.String mEmail -> E
+    java.lang.String mQQ -> F
+    com.janan.net.RegisterEngine mEngine -> t
+    void addBar() -> a
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void registerOnclick(android.view.View) -> registerOnclick
+    java.lang.String access$0(com.janan.recruit.personalactivity.RegisterActivity) -> a
+    java.lang.String access$1(com.janan.recruit.personalactivity.RegisterActivity) -> b
+com.janan.recruit.personalactivity.RegisterActivity$1 -> com.janan.recruit.personalactivity.v:
+    com.janan.recruit.personalactivity.RegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.RegisterActivity$2 -> com.janan.recruit.personalactivity.w:
+    com.janan.recruit.personalactivity.RegisterActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.ResumeChangeActivity -> com.janan.recruit.personalactivity.ResumeChangeActivity:
+    android.widget.LinearLayout mRootLayout -> t
+    android.widget.ScrollView mScrollView -> u
+    android.widget.LinearLayout mScrollChild -> v
+    android.widget.LinearLayout mCoverLayout -> w
+    android.widget.TextView titleTextView -> x
+    android.widget.Button sendButton -> y
+    android.widget.EditText mRealNameEdit -> z
+    android.widget.EditText mPhoneNumEdit -> A
+    android.widget.EditText mJobContentEditText -> B
+    android.widget.TextView mSexText -> C
+    android.widget.TextView mBirthText -> D
+    android.widget.TextView mLivePlaceText -> E
+    android.widget.TextView mQiwanggongzuoText -> F
+    android.widget.TextView mQiwanggongzuoText1 -> G
+    android.widget.TextView mQiwanggongzuoText2 -> H
+    android.widget.TextView mQiwanggongzuodidian -> I
+    android.widget.TextView mQiwanggongzuodidian1 -> J
+    android.widget.TextView mQiwanggongzuodidian2 -> K
+    com.janan.view.mamager.TitleBarManager mBarUtil -> L
+    com.janan.data.bean.personal.Resume mResume -> M
+    com.janan.net.ResumeInfoChangeEngine changeEngine -> N
+    com.janan.net.ResumeInfoEngine mInfoEngine -> O
+    int mYear -> P
+    int mMonth -> Q
+    int mDay -> R
+    boolean isSearch -> S
+    boolean isBirthday -> T
+    int stepNow -> U
+    void addBar() -> a
+    void updateUI() -> b
+    void showSelf() -> d
+    void initView() -> e
+    void setValue(java.lang.String,android.widget.TextView) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void checkResume() -> j
+    void changeOnclick(android.view.View) -> changeOnclick
+    void startChange() -> k
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onDateSet(android.widget.DatePicker,int,int,int) -> onDateSet
+    android.widget.TextView access$0(com.janan.recruit.personalactivity.ResumeChangeActivity) -> a
+    android.widget.TextView access$1(com.janan.recruit.personalactivity.ResumeChangeActivity) -> b
+    android.widget.TextView access$2(com.janan.recruit.personalactivity.ResumeChangeActivity) -> c
+    android.widget.TextView access$3(com.janan.recruit.personalactivity.ResumeChangeActivity) -> d
+    android.widget.TextView access$4(com.janan.recruit.personalactivity.ResumeChangeActivity) -> e
+    android.widget.TextView access$5(com.janan.recruit.personalactivity.ResumeChangeActivity) -> f
+    android.widget.TextView access$6(com.janan.recruit.personalactivity.ResumeChangeActivity) -> g
+    android.widget.TextView access$7(com.janan.recruit.personalactivity.ResumeChangeActivity) -> h
+    void access$8$59515836(com.janan.recruit.personalactivity.ResumeChangeActivity) -> i
+    void access$9(com.janan.recruit.personalactivity.ResumeChangeActivity,int) -> a
+    void access$10(com.janan.recruit.personalactivity.ResumeChangeActivity,int) -> b
+    void access$11(com.janan.recruit.personalactivity.ResumeChangeActivity,int) -> c
+    int access$12(com.janan.recruit.personalactivity.ResumeChangeActivity) -> j
+    int access$13(com.janan.recruit.personalactivity.ResumeChangeActivity) -> k
+    int access$14(com.janan.recruit.personalactivity.ResumeChangeActivity) -> l
+    boolean access$15(com.janan.recruit.personalactivity.ResumeChangeActivity) -> m
+    com.janan.net.ResumeInfoEngine access$16(com.janan.recruit.personalactivity.ResumeChangeActivity) -> n
+    void access$17(com.janan.recruit.personalactivity.ResumeChangeActivity,com.janan.data.bean.personal.Resume) -> a
+    com.janan.data.bean.personal.Resume access$18(com.janan.recruit.personalactivity.ResumeChangeActivity) -> o
+    void access$19(com.janan.recruit.personalactivity.ResumeChangeActivity,com.janan.data.bean.personal.Resume) -> b
+    void access$20$59515836(com.janan.recruit.personalactivity.ResumeChangeActivity) -> p
+    int access$21(com.janan.recruit.personalactivity.ResumeChangeActivity) -> q
+    void access$22(com.janan.recruit.personalactivity.ResumeChangeActivity,int) -> d
+    android.widget.ScrollView access$23(com.janan.recruit.personalactivity.ResumeChangeActivity) -> r
+    android.widget.LinearLayout access$24(com.janan.recruit.personalactivity.ResumeChangeActivity) -> s
+    android.widget.TextView access$25(com.janan.recruit.personalactivity.ResumeChangeActivity) -> t
+    android.widget.Button access$26(com.janan.recruit.personalactivity.ResumeChangeActivity) -> u
+com.janan.recruit.personalactivity.ResumeChangeActivity$1 -> com.janan.recruit.personalactivity.x:
+    com.janan.recruit.personalactivity.ResumeChangeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.ResumeChangeActivity$2 -> com.janan.recruit.personalactivity.y:
+    com.janan.recruit.personalactivity.ResumeChangeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.ResumeChangeActivity$3 -> com.janan.recruit.personalactivity.z:
+    com.janan.recruit.personalactivity.ResumeChangeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.ResumeChangeActivity$MyListener -> com.janan.recruit.personalactivity.aa:
+    com.janan.recruit.personalactivity.ResumeChangeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.ResumePreviewActivity -> com.janan.recruit.personalactivity.ResumePreviewActivity:
+    android.widget.TextView mRealNameTextView -> t
+    android.widget.TextView mSexTextView -> u
+    android.widget.TextView mPhoneNumTextView -> v
+    android.widget.TextView mBirthdayTextView -> w
+    android.widget.TextView mLocusTextView -> x
+    android.widget.TextView mIntentJobTextView -> y
+    android.widget.TextView mIntentJobTextView1 -> z
+    android.widget.TextView mIntentJobTextView2 -> A
+    android.widget.TextView mIntentJobPlaceTextView -> B
+    android.widget.TextView mIntentJobPlaceTextView1 -> C
+    android.widget.TextView mIntentJobPlaceTextView2 -> D
+    android.widget.TextView mQiuzhixinTextView -> E
+    com.janan.data.bean.personal.Resume mResume -> F
+    com.janan.net.ResumeInfoEngine mEngine -> G
+    void initView() -> e
+    void showResume(com.janan.data.bean.personal.Resume) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void showSelf() -> d
+    void startRequest() -> h
+    com.janan.net.ResumeInfoEngine access$0(com.janan.recruit.personalactivity.ResumePreviewActivity) -> a
+    void access$1(com.janan.recruit.personalactivity.ResumePreviewActivity,com.janan.data.bean.personal.Resume) -> a
+    com.janan.data.bean.personal.Resume access$2(com.janan.recruit.personalactivity.ResumePreviewActivity) -> b
+    void access$3(com.janan.recruit.personalactivity.ResumePreviewActivity,com.janan.data.bean.personal.Resume) -> b
+com.janan.recruit.personalactivity.ResumePreviewActivity$1 -> com.janan.recruit.personalactivity.ab:
+    com.janan.recruit.personalactivity.ResumePreviewActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.SeeMyResumeCompanyActivity -> com.janan.recruit.personalactivity.SeeMyResumeCompanyActivity:
+    android.widget.LinearLayout mRootLayout -> t
+    com.janan.view.mamager.TitleBarManager mBarUtil -> u
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+com.janan.recruit.personalactivity.SendResumeOutActivity -> com.janan.recruit.personalactivity.SendResumeOutActivity:
+    android.widget.LinearLayout mRootLayout -> u
+    android.widget.EditText jobEdit -> v
+    android.widget.EditText companyEdit -> w
+    android.widget.EditText compantEmail -> x
+    com.janan.view.mamager.TitleBarManager mBarUtil -> y
+    com.janan.net.SendResumeOutEngine mEngine -> t
+    void onCreate(android.os.Bundle) -> onCreate
+    void sendResume(android.view.View) -> sendResume
+    void addBar() -> a
+    void showSelf() -> d
+    void initView() -> e
+com.janan.recruit.personalactivity.SendResumeOutActivity$1 -> com.janan.recruit.personalactivity.ac:
+    com.janan.recruit.personalactivity.SendResumeOutActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.personalactivity.SendResumeOutActivity$2 -> com.janan.recruit.personalactivity.ad:
+    com.janan.recruit.personalactivity.SendResumeOutActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.SendResumeOutRecordsActivity -> com.janan.recruit.personalactivity.SendResumeOutRecordsActivity:
+    android.widget.LinearLayout mRootLayout -> u
+    android.widget.ListView mListView -> v
+    com.janan.view.mamager.TitleBarManager mBarUtil -> w
+    com.janan.adapter.OutResumeRecordAdapter mAdapter -> x
+    com.janan.net.SendResumeOutRecordsEngine mEngine -> t
+    void addBar() -> a
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    com.janan.adapter.OutResumeRecordAdapter access$0(com.janan.recruit.personalactivity.SendResumeOutRecordsActivity) -> a
+    void access$1(com.janan.recruit.personalactivity.SendResumeOutRecordsActivity,com.janan.adapter.OutResumeRecordAdapter) -> a
+    android.widget.ListView access$2(com.janan.recruit.personalactivity.SendResumeOutRecordsActivity) -> b
+com.janan.recruit.personalactivity.SendResumeOutRecordsActivity$1 -> com.janan.recruit.personalactivity.ae:
+    com.janan.recruit.personalactivity.SendResumeOutRecordsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.personalactivity.SendResumeOutRecordsActivity$2 -> com.janan.recruit.personalactivity.af:
+    com.janan.recruit.personalactivity.SendResumeOutRecordsActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.searchactivity.JobInfoActivity -> com.janan.recruit.searchactivity.JobInfoActivity:
+    android.widget.LinearLayout mRootLayout -> u
+    android.widget.LinearLayout mJobInfoLayout -> v
+    com.janan.view.mamager.TitleBarManager mBarUtil -> w
+    android.widget.TextView mJobNameView -> x
+    android.widget.TextView mJobDes -> y
+    android.widget.TextView mContactInfoView -> z
+    android.widget.TextView mMoreJobTextView -> A
+    android.widget.TextView mApplyTextView -> B
+    android.widget.TextView mCollentionTextView -> C
+    android.widget.TextView mShareTextView -> D
+    java.lang.String mTitle -> E
+    com.janan.data.bean.JobInfo mInfo -> t
+    com.janan.net.ApplyEngine mApplyEngine -> F
+    com.janan.net.JobInfoEngine mEngine -> G
+    void onCreate(android.os.Bundle) -> onCreate
+    void toSearchResultActivity() -> j
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void startApply() -> k
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    com.janan.net.JobInfoEngine access$0(com.janan.recruit.searchactivity.JobInfoActivity) -> a
+    android.widget.TextView access$1(com.janan.recruit.searchactivity.JobInfoActivity) -> b
+    android.widget.TextView access$2(com.janan.recruit.searchactivity.JobInfoActivity) -> c
+    android.widget.LinearLayout access$3(com.janan.recruit.searchactivity.JobInfoActivity) -> d
+    android.widget.TextView access$4(com.janan.recruit.searchactivity.JobInfoActivity) -> e
+    android.widget.TextView access$5(com.janan.recruit.searchactivity.JobInfoActivity) -> f
+com.janan.recruit.searchactivity.JobInfoActivity$1 -> com.janan.recruit.searchactivity.a:
+    com.janan.recruit.searchactivity.JobInfoActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.janan.recruit.searchactivity.JobInfoActivity access$0(com.janan.recruit.searchactivity.JobInfoActivity$1) -> a
+com.janan.recruit.searchactivity.JobInfoActivity$1$1 -> com.janan.recruit.searchactivity.b:
+    com.janan.recruit.searchactivity.JobInfoActivity$1 this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.JobInfoActivity$2 -> com.janan.recruit.searchactivity.c:
+    com.janan.recruit.searchactivity.JobInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.JobInfoActivity$3 -> com.janan.recruit.searchactivity.d:
+    com.janan.recruit.searchactivity.JobInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.JobInfoActivity$4 -> com.janan.recruit.searchactivity.e:
+    com.janan.recruit.searchactivity.JobInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.JobInfoActivity$5 -> com.janan.recruit.searchactivity.f:
+    com.janan.recruit.searchactivity.JobInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.SearchActivity -> com.janan.recruit.searchactivity.SearchActivity:
+    android.widget.LinearLayout mRootLayout -> t
+    android.widget.LinearLayout mBodyLayout -> u
+    com.janan.view.mamager.TitleBarManager mBarManager -> v
+    com.janan.view.mamager.SearchConditionsManager mSearchManager -> w
+    com.janan.view.mamager.FastNavigationViewUtil mFastNavigationViewUtil -> x
+    void onCreate(android.os.Bundle) -> onCreate
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    com.janan.view.mamager.TitleBarManager access$0(com.janan.recruit.searchactivity.SearchActivity) -> a
+    com.janan.view.mamager.SearchConditionsManager access$1(com.janan.recruit.searchactivity.SearchActivity) -> b
+com.janan.recruit.searchactivity.SearchActivity$1 -> com.janan.recruit.searchactivity.g:
+    com.janan.recruit.searchactivity.SearchActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.SearchCheckInfoActivity -> com.janan.recruit.searchactivity.SearchCheckInfoActivity:
+    android.widget.LinearLayout rootLayout -> v
+    android.widget.ListView mListView -> w
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    android.os.Bundle mBundle -> y
+    com.janan.adapter.SearchCheckInfoAdapter mAdapter -> t
+    java.util.ArrayList mList -> u
+    void onCreate(android.os.Bundle) -> onCreate
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    android.os.Bundle access$0(com.janan.recruit.searchactivity.SearchCheckInfoActivity) -> a
+com.janan.recruit.searchactivity.SearchCheckInfoActivity$1 -> com.janan.recruit.searchactivity.h:
+    com.janan.recruit.searchactivity.SearchCheckInfoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.SearchCheckInfoActivity$2 -> com.janan.recruit.searchactivity.i:
+    com.janan.recruit.searchactivity.SearchCheckInfoActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.searchactivity.SearchResultActivity -> com.janan.recruit.searchactivity.SearchResultActivity:
+    java.util.ArrayList mList -> B
+    android.widget.LinearLayout mRootLayout -> C
+    android.widget.ListView mListView -> D
+    android.widget.TextView mAddressTextView -> E
+    com.janan.view.mamager.TitleBarManager mBarUtil -> F
+    com.janan.view.mamager.SearchConditionsManager mSearchUtil -> G
+    com.janan.recruit.BaseActivity mActivity -> H
+    com.janan.adapter.PositionSubscribeAdapter mAdapter -> I
+    android.widget.ImageButton mSearchButton -> J
+    android.widget.EditText mKeyWordEdit -> K
+    boolean isButton -> L
+    int mPage -> t
+    int midPage -> u
+    com.janan.data.bean.search.NearSearch mSearch -> v
+    com.janan.net.SearchEngine mEngine -> w
+    java.lang.String defaultTitle -> x
+    java.lang.String mProvinceString -> y
+    java.lang.String mCityString -> z
+    java.lang.String mAreaString -> A
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void startSearch() -> j
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void access$0(com.janan.recruit.searchactivity.SearchResultActivity,boolean) -> a
+    android.widget.EditText access$1(com.janan.recruit.searchactivity.SearchResultActivity) -> a
+    void access$2(com.janan.recruit.searchactivity.SearchResultActivity) -> b
+    com.janan.recruit.BaseActivity access$3(com.janan.recruit.searchactivity.SearchResultActivity) -> c
+    boolean access$4(com.janan.recruit.searchactivity.SearchResultActivity) -> d
+    android.widget.ListView access$5(com.janan.recruit.searchactivity.SearchResultActivity) -> e
+    void access$6(com.janan.recruit.searchactivity.SearchResultActivity,com.janan.adapter.PositionSubscribeAdapter) -> a
+    com.janan.adapter.PositionSubscribeAdapter access$7(com.janan.recruit.searchactivity.SearchResultActivity) -> f
+    void access$8(com.janan.recruit.searchactivity.SearchResultActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$9(com.janan.recruit.searchactivity.SearchResultActivity) -> g
+    com.janan.view.mamager.TitleBarManager access$10(com.janan.recruit.searchactivity.SearchResultActivity) -> h
+com.janan.recruit.searchactivity.SearchResultActivity$1 -> com.janan.recruit.searchactivity.j:
+    com.janan.recruit.searchactivity.SearchResultActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.SearchResultActivity$2 -> com.janan.recruit.searchactivity.k:
+    com.janan.recruit.searchactivity.SearchResultActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.SearchResultActivity$3 -> com.janan.recruit.searchactivity.l:
+    com.janan.recruit.searchactivity.SearchResultActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.searchactivity.SearchResultActivity$4 -> com.janan.recruit.searchactivity.m:
+    com.janan.recruit.searchactivity.SearchResultActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.janan.recruit.searchactivity.SearchResultActivity access$0(com.janan.recruit.searchactivity.SearchResultActivity$4) -> a
+com.janan.recruit.searchactivity.SearchResultActivity$4$1 -> com.janan.recruit.searchactivity.n:
+    com.janan.recruit.searchactivity.SearchResultActivity$4 this$1 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.searchactivity.ShiXiActivity -> com.janan.recruit.searchactivity.ShiXiActivity:
+    android.widget.ListView mListView -> t
+    com.janan.adapter.ShixiAdapter mAdapter -> u
+    java.util.ArrayList mList -> v
+    com.janan.net.WorkDynamicsListEngine mListEngine -> w
+    int mPage -> x
+    boolean isFirstSearch -> y
+    void onCreate(android.os.Bundle) -> onCreate
+    void showSelf() -> d
+    void finishSelf() -> c
+    void initView() -> e
+    void startRequest() -> h
+    void onResume() -> onResume
+    void access$0$248524d6(com.janan.recruit.searchactivity.ShiXiActivity) -> a
+    com.janan.net.WorkDynamicsListEngine access$1(com.janan.recruit.searchactivity.ShiXiActivity) -> b
+    int access$2(com.janan.recruit.searchactivity.ShiXiActivity) -> c
+    void access$3(com.janan.recruit.searchactivity.ShiXiActivity,int) -> a
+    android.widget.ListView access$4(com.janan.recruit.searchactivity.ShiXiActivity) -> d
+    com.janan.adapter.ShixiAdapter access$5(com.janan.recruit.searchactivity.ShiXiActivity) -> e
+    void access$6(com.janan.recruit.searchactivity.ShiXiActivity,com.janan.adapter.ShixiAdapter) -> a
+    void access$7(com.janan.recruit.searchactivity.ShiXiActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$8(com.janan.recruit.searchactivity.ShiXiActivity) -> f
+com.janan.recruit.searchactivity.ShiXiActivity$1 -> com.janan.recruit.searchactivity.o:
+    com.janan.recruit.searchactivity.ShiXiActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.janan.recruit.searchactivity.ShiXiActivity access$0(com.janan.recruit.searchactivity.ShiXiActivity$1) -> a
+com.janan.recruit.searchactivity.ShiXiActivity$1$1 -> com.janan.recruit.searchactivity.p:
+    com.janan.recruit.searchactivity.ShiXiActivity$1 this$1 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.subscribeactivity.JobSubscribeActivity -> com.janan.recruit.subscribeactivity.JobSubscribeActivity:
+    android.widget.LinearLayout mRootLayout -> v
+    com.janan.view.mamager.TitleBarManager mBarUtil -> w
+    android.widget.ListView mListView -> x
+    android.widget.LinearLayout mNoscribeLayout -> y
+    java.util.ArrayList mList -> z
+    com.janan.recruit.BaseActivity mActivity -> A
+    com.janan.data.bean.search.NearSearch mSearch -> B
+    com.janan.net.SubscribeJobEngine mSearchEngine -> t
+    int mPage -> C
+    boolean isSubed -> D
+    com.janan.adapter.PositionSubscribeAdapter mAdapter -> E
+    boolean isResumed -> u
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> e
+    void addBar() -> a
+    boolean checkUser() -> k
+    void showSelf() -> d
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void startSubscribe(boolean) -> a
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void access$0$7a50fd2c(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> a
+    boolean access$1(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> b
+    void access$2(com.janan.recruit.subscribeactivity.JobSubscribeActivity,boolean) -> a
+    void access$3(com.janan.recruit.subscribeactivity.JobSubscribeActivity,int) -> a
+    com.janan.adapter.PositionSubscribeAdapter access$4(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> c
+    com.janan.recruit.BaseActivity access$5(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> d
+    void access$6(com.janan.recruit.subscribeactivity.JobSubscribeActivity,com.janan.adapter.PositionSubscribeAdapter) -> a
+    android.widget.ListView access$7(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> e
+    int access$8(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> f
+    void access$9(com.janan.recruit.subscribeactivity.JobSubscribeActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$10(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> g
+    void access$11(com.janan.recruit.subscribeactivity.JobSubscribeActivity,int) -> b
+    void access$12(com.janan.recruit.subscribeactivity.JobSubscribeActivity) -> h
+    boolean access$13$7fd10aac() -> j
+com.janan.recruit.subscribeactivity.JobSubscribeActivity$1 -> com.janan.recruit.subscribeactivity.a:
+    com.janan.recruit.subscribeactivity.JobSubscribeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.recruit.subscribeactivity.JobSubscribeActivity$2 -> com.janan.recruit.subscribeactivity.b:
+    com.janan.recruit.subscribeactivity.JobSubscribeActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.subscribeactivity.JobSubscribeActivity$3 -> com.janan.recruit.subscribeactivity.c:
+    com.janan.recruit.subscribeactivity.JobSubscribeActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.recruit.subscribeactivity.JobSubscribeActivity$4 -> com.janan.recruit.subscribeactivity.d:
+    com.janan.recruit.subscribeactivity.JobSubscribeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.recruit.subscribeactivity.SubScribeSearch -> com.janan.recruit.subscribeactivity.SubScribeSearch:
+    com.janan.view.mamager.SearchConditionsManager mSearchManager -> t
+    com.janan.view.mamager.TitleBarManager mBarUtil -> u
+    android.widget.LinearLayout mRootLayout -> v
+    android.widget.ScrollView mScroll -> w
+    void addBar() -> a
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.janan.recruit.subscribeactivity.SubScribeSearch$1 -> com.janan.recruit.subscribeactivity.e:
+    com.janan.recruit.subscribeactivity.SubScribeSearch this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.resume.workdynactivity.WorkDynamicsActivity -> com.janan.resume.workdynactivity.WorkDynamicsActivity:
+    com.janan.view.mamager.TitleBarManager mBarUtil -> t
+    android.widget.ListView mListView -> u
+    com.janan.adapter.NewsTitleAdapter mAdapter -> v
+    java.util.ArrayList mList -> w
+    com.janan.net.WorkDynamicsListEngine mListEngine -> x
+    int mPage -> y
+    boolean isFirstSearch -> z
+    boolean isFromFast -> A
+    void onCreate(android.os.Bundle) -> onCreate
+    void showSelf() -> d
+    void finishSelf() -> c
+    void initView() -> e
+    void startRequest() -> h
+    void onResume() -> onResume
+    void access$0$33a0f73d(com.janan.resume.workdynactivity.WorkDynamicsActivity) -> a
+    com.janan.net.WorkDynamicsListEngine access$1(com.janan.resume.workdynactivity.WorkDynamicsActivity) -> b
+    int access$2(com.janan.resume.workdynactivity.WorkDynamicsActivity) -> c
+    void access$3(com.janan.resume.workdynactivity.WorkDynamicsActivity,int) -> a
+    android.widget.ListView access$4(com.janan.resume.workdynactivity.WorkDynamicsActivity) -> d
+    com.janan.adapter.NewsTitleAdapter access$5(com.janan.resume.workdynactivity.WorkDynamicsActivity) -> e
+    void access$6(com.janan.resume.workdynactivity.WorkDynamicsActivity,com.janan.adapter.NewsTitleAdapter) -> a
+    void access$7(com.janan.resume.workdynactivity.WorkDynamicsActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$8(com.janan.resume.workdynactivity.WorkDynamicsActivity) -> f
+com.janan.resume.workdynactivity.WorkDynamicsActivity$1 -> com.janan.resume.workdynactivity.a:
+    com.janan.resume.workdynactivity.WorkDynamicsActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.janan.resume.workdynactivity.WorkDynamicsActivity access$0(com.janan.resume.workdynactivity.WorkDynamicsActivity$1) -> a
+com.janan.resume.workdynactivity.WorkDynamicsActivity$1$1 -> com.janan.resume.workdynactivity.b:
+    com.janan.resume.workdynactivity.WorkDynamicsActivity$1 this$1 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.janan.resume.workdynactivity.WorkDynamicsInfoActivity -> com.janan.resume.workdynactivity.WorkDynamicsInfoActivity:
+    java.lang.String newIdString -> t
+    com.janan.data.bean.News mNews -> u
+    com.janan.net.WorkDynamicsInfoEngine mEngine -> v
+    android.widget.TextView mTitleView -> w
+    android.widget.TextView mCopyfromView -> x
+    android.widget.TextView mHitsView -> y
+    android.widget.TextView mContentView -> z
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void startRequest() -> h
+    com.janan.net.WorkDynamicsInfoEngine access$0(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity) -> a
+    void access$1(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity,com.janan.data.bean.News) -> a
+    android.widget.TextView access$2(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity) -> b
+    com.janan.data.bean.News access$3(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity) -> c
+    android.widget.TextView access$4(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity) -> d
+    android.widget.TextView access$5(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity) -> e
+    android.widget.TextView access$6(com.janan.resume.workdynactivity.WorkDynamicsInfoActivity) -> f
+com.janan.resume.workdynactivity.WorkDynamicsInfoActivity$1 -> com.janan.resume.workdynactivity.c:
+    com.janan.resume.workdynactivity.WorkDynamicsInfoActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.util.DBHelper -> com.janan.util.a:
+    android.database.sqlite.SQLiteDatabase dbDatabase -> a
+    com.janan.recruit.BaseActivity activity -> b
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void setJob(com.janan.data.bean.JobInfo) -> a
+    boolean checkJob(com.janan.data.bean.JobInfo) -> b
+    void deleteJob(com.janan.data.bean.JobInfo) -> c
+    java.util.ArrayList getJobs() -> a
+    void setUser(com.janan.data.bean.personal.User) -> a
+    void clearUser() -> b
+    com.janan.data.bean.personal.User getUser() -> c
+    void setCompany(com.janan.data.bean.company.CompanyInfo) -> a
+    void clearCompany() -> d
+    com.janan.data.bean.company.CompanyInfo getCompany() -> e
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.janan.util.LocationUtil -> com.janan.util.b:
+    java.lang.Double mLongitude -> a
+    java.lang.Double mLatitude -> b
+    void setAddress(android.content.Context) -> a
+com.janan.util.LocationUtil$1 -> com.janan.util.c:
+    android.content.Context val$context -> a
+    void run() -> run
+com.janan.util.LocationUtil$2 -> com.janan.util.d:
+    android.location.LocationManager val$locationManager -> a
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+com.janan.util.NetConnectUtil -> com.janan.util.e:
+    android.content.Context mContext -> a
+    boolean isWifiConnected() -> a
+    boolean isMobileConnected() -> b
+com.janan.util.UncaughtExceptionHandler -> com.janan.util.f:
+    android.content.Context con_ -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.janan.util.Util -> com.janan.util.g:
+    java.lang.String username_expression11 -> a
+    boolean checkEmail(java.lang.String) -> a
+    boolean checkPassword(java.lang.String,java.lang.String) -> a
+    boolean checkEditNull(android.widget.EditText) -> a
+    boolean isConditionNull(java.lang.String) -> b
+    java.lang.String getPushDate(int) -> a
+    boolean checkZhixiashi(java.lang.String) -> c
+    boolean ifArrayContain(java.lang.String,java.lang.String[]) -> a
+    java.lang.String handleString(java.lang.String) -> d
+    boolean checkString(java.lang.String) -> e
+    void shareWork(java.lang.String,com.janan.data.bean.JobInfo,com.janan.recruit.BaseActivity) -> a
+    boolean checkLocationExists(android.content.Context) -> a
+    java.lang.String replaceString(java.lang.String) -> f
+com.janan.util.activity.CityActivity -> com.janan.util.activity.CityActivity:
+    android.widget.LinearLayout rootLayout -> v
+    android.widget.ListView mListView -> w
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    com.janan.adapter.CityAdapter mAdapter -> t
+    java.lang.String pId -> y
+    android.os.Bundle mBundle -> z
+    com.janan.net.CityEngine mEngine -> u
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.widget.ListView access$0(com.janan.util.activity.CityActivity) -> a
+com.janan.util.activity.CityActivity$1 -> com.janan.util.activity.a:
+    com.janan.util.activity.CityActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.util.activity.CityActivity$2 -> com.janan.util.activity.b:
+    com.janan.util.activity.CityActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.util.activity.DistrictActivity -> com.janan.util.activity.DistrictActivity:
+    android.widget.LinearLayout rootLayout -> v
+    android.widget.ListView mListView -> w
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    java.lang.String cId -> y
+    com.janan.adapter.DistrictAdapter mAdapter -> t
+    android.os.Bundle mBundle -> z
+    com.janan.net.DistrictEngine mEngine -> u
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.widget.ListView access$0(com.janan.util.activity.DistrictActivity) -> a
+com.janan.util.activity.DistrictActivity$1 -> com.janan.util.activity.c:
+    com.janan.util.activity.DistrictActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.util.activity.DistrictActivity$2 -> com.janan.util.activity.d:
+    com.janan.util.activity.DistrictActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.util.activity.JobDeptActivity -> com.janan.util.activity.JobDeptActivity:
+    android.widget.LinearLayout rootLayout -> v
+    android.widget.ListView mListView -> w
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    android.os.Bundle mBundle -> y
+    com.janan.adapter.JobDeptAdapter mAdapter -> t
+    com.janan.net.JobDeptEngine mEngine -> u
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.widget.ListView access$0(com.janan.util.activity.JobDeptActivity) -> a
+com.janan.util.activity.JobDeptActivity$1 -> com.janan.util.activity.e:
+    com.janan.util.activity.JobDeptActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.util.activity.JobDeptActivity$2 -> com.janan.util.activity.f:
+    com.janan.util.activity.JobDeptActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.util.activity.JobNameActivity -> com.janan.util.activity.JobNameActivity:
+    android.widget.LinearLayout rootLayout -> v
+    android.widget.ListView mListView -> w
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    com.janan.adapter.JobNameAdapter mAdapter -> t
+    android.os.Bundle mBundle -> y
+    java.lang.String pId -> z
+    com.janan.net.JobNameEngine mEngine -> u
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.widget.ListView access$0(com.janan.util.activity.JobNameActivity) -> a
+com.janan.util.activity.JobNameActivity$1 -> com.janan.util.activity.g:
+    com.janan.util.activity.JobNameActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.util.activity.JobNameActivity$2 -> com.janan.util.activity.h:
+    com.janan.util.activity.JobNameActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.util.activity.ProvinceActivity -> com.janan.util.activity.ProvinceActivity:
+    android.widget.LinearLayout rootLayout -> v
+    android.widget.ListView mListView -> w
+    com.janan.view.mamager.TitleBarManager mBarUtil -> x
+    com.janan.adapter.ProvinceAdapter mAdapter -> t
+    android.os.Bundle mBundle -> y
+    com.janan.net.ProvinceEngine mEngine -> u
+    void addBar() -> a
+    void updateUI() -> b
+    void finishSelf() -> c
+    void showSelf() -> d
+    void initView() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.widget.ListView access$0(com.janan.util.activity.ProvinceActivity) -> a
+com.janan.util.activity.ProvinceActivity$1 -> com.janan.util.activity.i:
+    com.janan.util.activity.ProvinceActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.util.activity.ProvinceActivity$2 -> com.janan.util.activity.j:
+    com.janan.util.activity.ProvinceActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.janan.view.mamager.FastNavigationViewUtil -> com.janan.view.mamager.a:
+    com.janan.recruit.BaseActivity mActivity -> m
+    android.widget.TextView _Zhaopinhui -> a
+    android.widget.TextView _Jipinzhiwei -> b
+    android.widget.TextView _Xingjizhaopin_5 -> c
+    android.widget.TextView _Xingjizhaopin_4 -> d
+    android.widget.TextView _Shixishengpaiqian -> e
+    android.widget.TextView _Mingquexinzi -> f
+    android.widget.TextView _Baochibaozhu -> g
+    android.widget.TextView _Jiudianzhiwei -> h
+    android.widget.TextView _Canyinzhiwei -> i
+    android.widget.TextView _Wenzhizhiwei -> j
+    android.widget.TextView _Shixishengzhiwei -> k
+    android.widget.TextView _Zixundongtai -> l
+    android.widget.LinearLayout getFastNavigationView() -> a
+    void onClick(android.view.View) -> onClick
+com.janan.view.mamager.SearchConditionsManager -> com.janan.view.mamager.b:
+    com.janan.recruit.BaseActivity mActivity -> d
+    android.widget.LinearLayout mLayout -> e
+    java.util.HashMap quickMap -> f
+    java.util.HashMap advancedMap -> g
+    java.util.HashMap searchResumeMap -> h
+    android.widget.Button mButton -> i
+    boolean hasButton -> j
+    boolean isAdvanced -> k
+    int mTag -> a
+    int page -> b
+    java.util.HashMap mConditionValue -> l
+    com.janan.data.bean.search.NearSearch _Search -> c
+    void checkLayout() -> d
+    void checkMap() -> e
+    void setSearchJobButtonLis() -> f
+    void addSearchButton() -> g
+    com.janan.data.bean.search.SearchCondition addSearchConditionToMap(java.util.HashMap,int,boolean) -> a
+    void createQuickSearch() -> h
+    void addView(java.util.HashMap) -> a
+    android.widget.LinearLayout getmLayout() -> a
+    void updateUI(android.os.Bundle) -> a
+    void initView() -> b
+    void initSearchResumeView() -> c
+    void setAdvanced(boolean) -> a
+    void setHasButton(boolean) -> b
+    com.janan.data.bean.search.SearchCondition getConditionById(int) -> a
+    java.util.HashMap access$0(com.janan.view.mamager.SearchConditionsManager) -> a
+    java.util.HashMap access$1(com.janan.view.mamager.SearchConditionsManager) -> b
+    com.janan.recruit.BaseActivity access$2(com.janan.view.mamager.SearchConditionsManager) -> c
+    java.util.HashMap access$3(com.janan.view.mamager.SearchConditionsManager) -> d
+com.janan.view.mamager.SearchConditionsManager$1 -> com.janan.view.mamager.c:
+    com.janan.view.mamager.SearchConditionsManager this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.view.mamager.SearchConditionsManager$2 -> com.janan.view.mamager.d:
+    com.janan.view.mamager.SearchConditionsManager this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.janan.view.mamager.ShowLineLinearLayout -> com.janan.view.mamager.ShowLineLinearLayout:
+    android.graphics.Paint paint -> a
+    int color -> b
+    void onDraw(android.graphics.Canvas) -> onDraw
+com.janan.view.mamager.TitleBarManager -> com.janan.view.mamager.e:
+    android.widget.LinearLayout mRootLayout -> a
+    android.widget.ImageView mLeftButton -> b
+    android.widget.ImageView mRightButton -> c
+    android.widget.TextView mTitleTextView -> d
+    android.app.Activity mActivity -> e
+    boolean mLeftClick -> f
+    boolean mRightClick -> g
+    android.widget.LinearLayout createBar(java.lang.String,android.graphics.drawable.Drawable,android.graphics.drawable.Drawable) -> a
+    boolean setLeftButtonListener(android.view.View$OnClickListener) -> a
+    boolean setRightButtonListener(android.view.View$OnClickListener) -> b
+    android.widget.ImageView getmRightButton() -> a
+    boolean ismRightClick() -> b
+    void setmRightClick(boolean) -> a
+    void setTitle(java.lang.String) -> a

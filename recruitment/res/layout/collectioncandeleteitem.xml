@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/poistionsubscribeitemlay"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	 >
+
+	<LinearLayout
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="6" 
+		android:orientation="vertical"
+		android:padding="@dimen/textblankpadding_large"
+		>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<TextView
+				android:id="@+id/jobname"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.5"
+				android:ellipsize="end"
+				android:gravity="center_vertical|left"
+				android:maxLines="1"
+				android:textColor="@color/blue"
+				android:textSize="@dimen/subscribejobnamesize" />
+
+			<TextView
+				android:id="@+id/address"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:ellipsize="end"
+				android:gravity="center_vertical|right"
+				android:maxLines="1"
+				android:textColor="@color/lightblack" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<TextView
+				android:id="@+id/company"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:gravity="center_vertical|left"
+				android:maxLines="1"
+				android:maxWidth="200dip"
+				android:textColor="@color/lightblack" />
+
+			<TextView
+				android:id="@+id/times"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dip"
+				android:background="@drawable/orangesmallback"
+				android:gravity="center"
+				android:paddingLeft="3dip"
+				android:paddingRight="5dip"
+				android:textColor="@color/whitecolor" />
+
+			<TextView
+				android:id="@+id/date"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:ellipsize="end"
+				android:gravity="center_vertical|right"
+				android:maxLines="1"
+				android:textColor="@color/lightblack" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageButton 
+		android:layout_marginLeft="@dimen/textblankpadding_20"
+		android:layout_marginRight="@dimen/textblankpadding_20"
+		android:id="@+id/delete"
+		android:layout_width="0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:visibility="gone"
+		android:src="@drawable/delete_fav"
+		android:background="#00000000"
+		/>
+</LinearLayout>
